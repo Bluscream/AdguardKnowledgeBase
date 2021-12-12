@@ -1,8 +1,7 @@
 ---
-title: 'Main window'
+title: "Main window"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

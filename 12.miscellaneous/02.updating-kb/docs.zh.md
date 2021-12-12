@@ -1,17 +1,17 @@
 ---
-title: '更新知识库'
+title: "更新知识库"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
-* [简介](#introduction)
-* [如何建议更改？](#suggest-change)
-* [撰写新文章](#new-article)
-* [翻译文章](#translator)
-* [处理未解决的问题](#issues)
-* [获得免费的AdGuard许可证](#license)
+- [简介](#introduction)
+- [如何建议更改？](#suggest-change)
+- [撰写新文章](#new-article)
+- [翻译文章](#translator)
+- [处理未解决的问题](#issues)
+- [获得免费的 AdGuard 许可证](#license)
 
 <a name="introduction"></a>
 
@@ -25,11 +25,11 @@ visible: true
 
 ## 如何建议更改？
 
-首先，您需要一个GitHub帐户。如果您没有，请加入[https://github.com/join](https://github.com/join) 。现在已经解决了，您可以直接投入写作。浏览[此处](https://github.com/AdguardTeam/AdguardKnowledgeBase) 的文章列表，然后选择您要提出一些更改的任何文章。单击 “docs.en.md” 文件(如果您使用英语书写)，然后单击框架右上角的小铅笔图标。
+首先，您需要一个 GitHub 帐户。如果您没有，请加入[https://github.com/join](https://github.com/join) 。现在已经解决了，您可以直接投入写作。浏览[此处](https://github.com/AdguardTeam/AdguardKnowledgeBase) 的文章列表，然后选择您要提出一些更改的任何文章。单击 “docs.en.md” 文件(如果您使用英语书写)，然后单击框架右上角的小铅笔图标。
 
 在这里，您终于可以展示您所有的特长！使用任何对您合适的方式更改文章（请使用 [Markdown](https://github.com/LewisVo/Markdown-Tutorial)！），并提供简短说明和拉取请求名称（稍后会详细介绍）。然后单击“建议更改文件”。您将被传到另一个页面。此页面上将有不少任务，但是您所要做的就是单击带有“创建拉取请求”文本的绿色按钮。如果您想更多了解整个过程，在线上可以找到大量的 GitHub 教程。
 
-那么，什么是拉取请求（或 PR）？简而言之，PR 是指向存储库作者/管理员传达的信息。其表示您做了很酷的编辑，因此值得被考虑添加。在我们的立场，很酷的事情是文章的更改。管理员将查看您的PR并进行审查。如果他们认为您的建议有效且合法，他们将予以批准。否则，他们还会拒绝 PR 或要求您在批准之前进行更改。具体流程，只需尝试一下，便不言自明。
+那么，什么是拉取请求（或 PR）？简而言之，PR 是指向存储库作者/管理员传达的信息。其表示您做了很酷的编辑，因此值得被考虑添加。在我们的立场，很酷的事情是文章的更改。管理员将查看您的 PR 并进行审查。如果他们认为您的建议有效且合法，他们将予以批准。否则，他们还会拒绝 PR 或要求您在批准之前进行更改。具体流程，只需尝试一下，便不言自明。
 
 <a name="new-article"></a>
 
@@ -48,6 +48,7 @@ taxonomy:
 visible: true
 ---
 ```
+
 在下面输入文本 (请使用 [Markdown](https://github.com/LewisVo/Markdown-Tutorial)！)。然后单击“建议更改文件”以创建 PR。其余步骤与[上文](#suggest-change)中所述完全相同。
 
 <a name="translator"></a>
@@ -64,7 +65,7 @@ visible: true
 
 <a name="license"></a>
 
-## 获得免费的AdGuard许可
+## 获得免费的 AdGuard 许可
 
 我们的知识库是重要的信息来源。可让用户进一步了解 AdGuard。因此，我们总是很乐意为对 AdGuard 做出贡献的人提供免费 AdGuard 许可。
 

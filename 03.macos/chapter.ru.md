@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard для macOS'
+title: "AdGuard для macOS"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Раздел 3

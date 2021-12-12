@@ -1,8 +1,8 @@
 ---
-title: 'Браузерные расширения'
+title: "Браузерные расширения"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Раздел 9

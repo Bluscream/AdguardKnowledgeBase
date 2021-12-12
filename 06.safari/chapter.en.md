@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard for Safari'
+title: "AdGuard for Safari"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 6

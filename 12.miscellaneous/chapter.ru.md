@@ -1,8 +1,8 @@
 ---
-title: 'Разное'
+title: "Разное"
 taxonomy:
-    category:
-        - chapter
+  category:
+    - chapter
 published: true
 visible: true
 ---

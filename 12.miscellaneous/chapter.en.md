@@ -1,8 +1,8 @@
 ---
-title: 'Miscellaneous'
+title: "Miscellaneous"
 taxonomy:
-    category: 
-        - chapter
+  category:
+    - chapter
 published: true
 visible: true
 ---

@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard DNS'
+title: "AdGuard DNS"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Раздел 8

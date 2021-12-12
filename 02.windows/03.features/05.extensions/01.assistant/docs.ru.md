@@ -2,8 +2,8 @@
 title: Помощник
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
 
@@ -20,7 +20,6 @@ visible: false
 Из главного окна Помощника вы получаете быстрый доступ к самым необходимым функциям AdGuard.
 
 ![Главное окно Помощника](https://cloud.githubusercontent.com/assets/20211341/20469777/9caea9c6-af89-11e6-9e03-892b088310bb.png)
-
 
 **Информация WOT**
 

@@ -1,8 +1,8 @@
 ---
-title: 'How to collect DNS requests log on AdGuard Pro?'
+title: "How to collect DNS requests log on AdGuard Pro?"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
 

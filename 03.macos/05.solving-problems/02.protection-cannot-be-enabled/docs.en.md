@@ -2,12 +2,10 @@
 title: If AdGuard Protection cannot be enabled (for some reasons)
 published: true
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
- 
- 
 1. Click the AdGuard icon at the Menu Bar - go to Advanced - Reset settings... and quit AdGuard.
 
 2. In the Spotlight Search, type Terminal - enter `sudo rm -R /Library/Application\ Support/com.adguard.adguard` and execute

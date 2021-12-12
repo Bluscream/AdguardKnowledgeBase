@@ -1,8 +1,8 @@
 ---
-title: 'Режим интеграции'
+title: "Режим интеграции"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Что такое режим интеграции?

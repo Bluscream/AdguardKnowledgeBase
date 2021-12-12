@@ -1,9 +1,9 @@
 ---
-title: 'Если по каким-либо причинам не удается запустить защиту'
+title: "Если по каким-либо причинам не удается запустить защиту"
 published: true
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 1. В запущеном AdGuard, через меню - выполнить “Сбросить настройки...“, но после сброса нажать выход, а не рестарт.
@@ -12,7 +12,7 @@ taxonomy:
 
 3. Выполнить перезагрузку.
 
-4. В терминале проверить, что папка стерлась сама выполнив команду: `ls -al /Library/StagedExtensions/Library/Application\ Support/com.adguard.Adguard/`. В результате Вы увидите -  `No such file or directory`;
+4. В терминале проверить, что папка стерлась сама выполнив команду: `ls -al /Library/StagedExtensions/Library/Application\ Support/com.adguard.Adguard/`. В результате Вы увидите - `No such file or directory`;
 
 5. Запустить AdGuard, ввести логин и пароль администратора когда он попросит.
 

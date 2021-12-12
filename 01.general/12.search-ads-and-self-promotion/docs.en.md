@@ -1,11 +1,12 @@
 ---
 title: "Search ads and self-promotion"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 published: true
 visible: true
 ---
+
 ## Search ads and self-promotion
 
 **Disclaimer.** While AdGuard provides an option to show some ads, we do not have any kind of 'acceptable ads' program like Adblock Plus and some other adblockers, where they take money for leaving certain ads unblocked. This is not the case. We are not being paid for showing any of the ads, and we do not use the term 'acceptable' for a reason - ads we might show can be, in fact, useful and not just 'acceptable'. All of this only refers to the search ads and self-promotional ads.
@@ -14,11 +15,11 @@ Just to make it absolutely clear - this is **completely optional**. You can turn
 
 ### Search ads
 
-Search ads are ads that you see among the results of a search query when using an online search engine like Google, Bing, DuckDuckGo etc. 
+Search ads are ads that you see among the results of a search query when using an online search engine like Google, Bing, DuckDuckGo etc.
 
 ![search-ads](https://user-images.githubusercontent.com/28726429/27697369-b3d2556e-5cfc-11e7-9203-3c95a7de7c28.png)
 
-These ads are always contextual, i.e. they are targeted to match whatever keywords you had used when you made the query. It helps you to find exactly what you are searching for. Moreover, search ads are often more relevant and helpful than the rest of the search results due to being manually moderated.  
+These ads are always contextual, i.e. they are targeted to match whatever keywords you had used when you made the query. It helps you to find exactly what you are searching for. Moreover, search ads are often more relevant and helpful than the rest of the search results due to being manually moderated.
 
 Another argument in defense of search ads is that they are much less intrusive than many other ad formats.
 
@@ -32,19 +33,19 @@ Our general stance here is very similar to EasyList policy regarding self-promot
 
 Partly, this is due to ethical reasons, but mostly because such ads are rarely too intrusive and are often useful for the visitor of the website (who is supposedly interested in this website's content).
 
-By enabling 'Search ads and self-promotion' AdGuard users can unblock some of these self-promotional ads. 
- 
+By enabling 'Search ads and self-promotion' AdGuard users can unblock some of these self-promotional ads.
+
 ### What ads are on the list?
 
 When you enable 'Search ads and self-promotion', the search ads in the following search engines are shown:
 
-* Google
-* Yahoo
-* Bing
-* Ask
-* Yandex
-* DuckDuckGo
-* StartPage
+- Google
+- Yahoo
+- Bing
+- Ask
+- Yandex
+- DuckDuckGo
+- StartPage
 
 As well as all self-promotional ads that satisfy our filter policy.
 

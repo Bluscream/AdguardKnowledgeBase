@@ -1,8 +1,8 @@
 ---
-title: 'HTTPS filtering: known issues'
+title: "HTTPS filtering: known issues"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -15,8 +15,8 @@ First, look at this simple diagram that shows the general structure of HTTPS pro
 
 AdGuard copies properties of the TLS-connection that your browser uses:
 
-* AdGuard uses the same TLS version.
-* AdGuard uses the same encrypting methods (ciphers) as your browser.
+- AdGuard uses the same TLS version.
+- AdGuard uses the same encrypting methods (ciphers) as your browser.
 
 Effectively, it means that if you use a modern, safe browser, it will take all known TLS problems into account and won’t attempt to use unsafe ciphers.
 
@@ -42,7 +42,7 @@ Browsers ignore the `Expect-CT` header in the case of local certificates and to 
 
 **Our plans:**
 
-* Add the certificate transparency support to the certificate validation library.
+- Add the certificate transparency support to the certificate validation library.
 
 **ETA:** ETA is Q3 2021.
 

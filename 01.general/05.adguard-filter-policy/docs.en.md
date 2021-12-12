@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard Filter Policy'
+title: "AdGuard Filter Policy"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -12,7 +12,7 @@ When discussing AdGuard ad filters, there is often one topic that causes dispute
 
 ## Terminology
 
-Throughout this text, we use terms **first party** and **third party**. 
+Throughout this text, we use terms **first party** and **third party**.
 
 A first party is a website that a user is intentionally and knowingly visiting and the set of resources on the web operated by the same organization. In practice, we consider resources to belong to the same party if they are part of the same registrable domain: a public suffix plus one additional label. Example: `site.example`, `www.site.example`, and `s.u.b.site.example` are all the same party since `site.example` is their shared registrable domain.
 
@@ -25,14 +25,13 @@ These equally apply to rules in all filters.
 - Rules that often cause problems with work of some websites will be deleted.
 - Rules that are specific to a particular website will be added only if the website has sufficient traffic. Traffic is determined by open statistics (if it has such) or in other ways, for example social media following. Website’s traffic is considered sufficient when it has 30 thousands visitors a month.
 
-
 ## Ad filters
 
 This part describes AdGuard Base filter, Mobile ads filter and following language-specific filters: Russian, German, Dutch, Spanish/Portuguese, Japanese, Turkish, Chinese, French.
 
 ##### What shall these filters block?
 
-- These filters shall block ads wherever possible. 
+- These filters shall block ads wherever possible.
 - Ads shall be blocked regardless of reasons and goals of such ad.
 - We will block ads caused by malicious apps or extensions that inject ads. Please note that we do it only on condition that you will specify how to install this app or extension.
 
@@ -45,7 +44,6 @@ If a rule is subject to the list of limitations described below, then it won’t
 - Anti-adblock scripts will be blocked only if they limit functionality of the website or interfere with its use.
 - Anti-adblock scripts will not be blocked in cases when it is prohibited by Law.
 - Rules that often cause problems with work of some websites will be deleted.
-
 
 ## Tracking Protection filter
 
@@ -64,7 +62,6 @@ If a rule is subject to the list of limitations described below, then it won’t
 - Rules that cause problems with functioning of websites will be removed.
 - Rules that are specific to a particular website will be added only if the website has sufficient traffic. Traffic is determined by open statistics (if it has such) or in other ways, for example social media following. Website’s traffic is considered sufficient when it has 30 thousands visitors a month.
 
-
 ## AdGuard URL Tracking filter
 
 ##### What shall be blocked with this filter?
@@ -77,10 +74,9 @@ We define **tracking** as collection of data regarding an individual’s identit
 
 If a rule is subject to the list of limitations described below, then it won’t be added to this filter.
 
-- Rules that would risk lowering user's security level will be removed. 
+- Rules that would risk lowering user's security level will be removed.
 - Rules that cause problems with functioning of websites will be removed.
 - Rules that are specific to a particular website will be added only if the website has sufficient traffic. Traffic is determined by open statistics (if it has such) or in other ways, for example social media following. Website’s traffic is considered sufficient when it has 30 thousands visitors a month.
-
 
 ## Social Media filter
 
@@ -97,7 +93,6 @@ If a rule is subject to the list of limitations described below, then it won’t
 - Rules that cause problems with functioning of websites will be removed.
 - Rules that are specific to a particular website will be added only if the website has sufficient traffic. Traffic is determined by open statistics (if it has such) or in other ways, for example social media following. Website’s traffic is considered sufficient when it has 30 thousands visitors a month.
 
-
 ## Annoyances filter
 
 ##### What shall be blocked with this filter?
@@ -112,10 +107,9 @@ If a rule is subject to the list of limitations described below, then it won’t
 - Rules that cause problems with functioning of websites will be removed.
 - Rules that are specific to a particular website will be added only if the website has sufficient traffic. Traffic is determined by open statistics (if it has such) or in other ways, for example social media following. Website’s traffic is considered sufficient when it has 30 thousands visitors a month.
 
-
 ## Filter unblocking search ads and self-promotion
 
-Unlike other filters, this filter **unblocks** certain ads. More about it in [this Knowledge Base article](https://kb.adguard.com/en/general/search-ads-and-self-promotion). 
+Unlike other filters, this filter **unblocks** certain ads. More about it in [this Knowledge Base article](https://kb.adguard.com/en/general/search-ads-and-self-promotion).
 
 ##### What shall be unblocked with this filter?
 
@@ -126,7 +120,6 @@ Unlike other filters, this filter **unblocks** certain ads. More about it in [th
 
 - Rules that cause problems with functioning of websites will be removed.
 - Rules that are specific to a particular website will be added only if the website has sufficient traffic. Traffic is determined by open statistics (if it has such) or in other ways, for example social media following. Website’s traffic is considered sufficient when it has 30 thousands visitors a month.
-
 
 ## Quality requirements for filtering rules
 

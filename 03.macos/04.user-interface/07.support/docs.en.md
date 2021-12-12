@@ -2,7 +2,6 @@
 title: Support
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

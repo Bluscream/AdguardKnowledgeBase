@@ -1,8 +1,7 @@
 ---
-title: 'Смешанный подход к блокировке рекламы на Android'
+title: "Смешанный подход к блокировке рекламы на Android"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

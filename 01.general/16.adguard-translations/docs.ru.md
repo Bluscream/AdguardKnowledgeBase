@@ -1,8 +1,8 @@
 ---
-title: 'Перевод продуктов AdGuard'
+title: "Перевод продуктов AdGuard"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
 

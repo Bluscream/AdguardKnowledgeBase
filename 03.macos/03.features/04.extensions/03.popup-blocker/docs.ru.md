@@ -1,9 +1,8 @@
 ---
-title: 'Блокировщик всплывающих окон'
+title: "Блокировщик всплывающих окон"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
-

@@ -1,16 +1,17 @@
 ---
-title: 'How to use Samsung Pay with AdGuard in South Korea'
+title: "How to use Samsung Pay with AdGuard in South Korea"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
 
 In the 'Advanced settings' of AdGuard for Android app there is a 'Low Level Settings' section where you can see a list of various features, the activation of which requires users' special understanding. Among these features you can find one that is called **"pref.samsungpay.autopause.enable"** and that is developed specifically for the South Korean users. Please read more to learn what this feature does.
 
-*The article is available in both languages: [Korean](#korean) and [English](#english).*
+_The article is available in both languages: [Korean](#korean) and [English](#english)._
 
 <a name="korean"></a>
+
 ## "pref.samsungpay.autopause.enable"기능에 대한 설명
 
 이 설정은 특정 문제가 있는 한국인들을 위해 개발되었습니다 — "삼성 페이" 서비스는 VPN을 실행 중인 기기에서 작동되지 않습니다. AdGuard의 경우, 로컬 VPN을 이용해서 트래픽을 필터링하며 이 모드는 기본적으로 켜져 있습니다.
@@ -28,9 +29,10 @@ In the 'Advanced settings' of AdGuard for Android app there is a 'Low Level Sett
 **참고:** 이 기능은 AdGuard 설정에서 VPN 필터링 모드가 켜져 있을 때만 작동합니다 — 다른 모드를 사용한다면, AdGuard는 정상적으로 작동할 것입니다.
 
 <a name="english"></a>
+
 ## The "pref.samsungpay.autopause.enable" feature
 
-As mentioned, the **"pref.samsungpay.autopause.enable"** feature is developed for the South Korean users who often face the following problem — *the "Samsung Pay" service doesn’t work on devices with running VPN.*
+As mentioned, the **"pref.samsungpay.autopause.enable"** feature is developed for the South Korean users who often face the following problem — _the "Samsung Pay" service doesn’t work on devices with running VPN._
 
 AdGuard, in its turn, uses Local VPN to filter traffic and this mode is on by default. This is the reason why the South Korean users have to disable AdGuard when making payments with "Samsung Pay". But fortunately, now it is possible to avoid such difficulties by activating this feature.
 

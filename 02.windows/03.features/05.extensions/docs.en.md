@@ -1,8 +1,8 @@
 ---
 title: Extensions
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 AdGuard can significantly broaden website functionality working as a [user script manager](https://adguard.com/en/userscripts.html). AdGuard Users can add their own scripts, as well as manage existing ones.

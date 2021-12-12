@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard for Windows'
+title: "AdGuard for Windows"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 2

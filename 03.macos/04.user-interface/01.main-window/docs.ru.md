@@ -1,8 +1,7 @@
 ---
-title: 'Главное окно'
+title: "Главное окно"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

@@ -1,8 +1,8 @@
 ---
-title: 'Launch issues on macOS'
+title: "Launch issues on macOS"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 

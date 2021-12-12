@@ -2,9 +2,10 @@
 title: Adware/Viruses
 published: true
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
+
 ## Introduction
 
 If you suspect your computer is infected by malware or viruses, first of all you can inspect your computer with utilities from leading antiviruses.
@@ -25,31 +26,32 @@ On the Internet, you can find a lot of applications that are aimed at fighting t
 
 After the application has been downloaded and successfully installed, you should take the following steps:
 
-1) Start the application and click **scan now**.
+1. Start the application and click **scan now**.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/En/Windows7.1/adware1.png" />
 
-2) Once the scan has been completed, you will need to send suspicious objects to **quarantine**.
+2. Once the scan has been completed, you will need to send suspicious objects to **quarantine**.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/En/Windows7.1/adware2.png" />
 
-3) When the items are moved to **quarantine**, you will be able to **clear the system** of unnecessary ballast.
-4) In some cases, you may need to **reboot the system** after cleaning is complete.
+3. When the items are moved to **quarantine**, you will be able to **clear the system** of unnecessary ballast.
+4. In some cases, you may need to **reboot the system** after cleaning is complete.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/En/Windows7.1/adware3.png" />
 
-5) Once the system has been rebooted, cleaning will be completed, if necessary, you can always read the **report** on the work done.
+5. Once the system has been rebooted, cleaning will be completed, if necessary, you can always read the **report** on the work done.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/En/Windows7.1/adware4.png" />
 
-If it didn’t help, temporary disable all extensions and some other settings in the browser according to [this instructions](#instruction). 
+If it didn’t help, temporary disable all extensions and some other settings in the browser according to [this instructions](#instruction).
 
 If disabling of settings and extensions does not help, try to [re-create shortcuts of your browsers](#shortcuts).
 
 Further on this page we describe the instructions to remove some of the most commonly encountered ad extensions.
 
 <a id="instruction"></a>
-### How to disable settings and extensions in the browser? 
+
+### How to disable settings and extensions in the browser?
 
 Below are the instructions on how to disable settings and extensions for the most popular browsers.
 
@@ -60,6 +62,7 @@ If you use Mozilla Firefox, [read this manual](https://support.mozilla.org/en-US
 If you use the Opera browser, [read this manual](http://help.opera.com/Windows/11.50/en/extensions.html).
 
 <a id="shortcuts"></a>
+
 ### How to re-create shortcuts for your browsers?
 
 Very often, malware and adware programs install their homepage in a very simple way - they substitute your browser's desktop shortcut, taskbar and "Start" menu items.

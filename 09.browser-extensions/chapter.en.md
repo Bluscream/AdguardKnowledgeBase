@@ -1,8 +1,8 @@
 ---
-title: 'Browser Extensions'
+title: "Browser Extensions"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 9

@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard for iOS'
+title: "AdGuard for iOS"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 5

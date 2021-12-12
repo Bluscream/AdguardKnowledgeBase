@@ -1,8 +1,8 @@
 ---
-title: 'Общие вопросы'
+title: "Общие вопросы"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Раздел 1

@@ -1,8 +1,8 @@
 ---
 title: 安装
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ## 系统需求
@@ -21,13 +21,13 @@ taxonomy:
 
 首先，请在操作系统设置里允许安装未知来源的应用程序。以执行此操作请您：
 
-* 安卓 8+：开始安装 AdGuard APK 文件（查看下一步）。您将会看到允许安装应用程序的窗口。在打开的窗口点击**设置**并启用**允许此来源**。
-<img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/zh/1.jpg" width="400" />
-<img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/zh/2.jpg" width="400" />
+- 安卓 8+：开始安装 AdGuard APK 文件（查看下一步）。您将会看到允许安装应用程序的窗口。在打开的窗口点击**设置**并启用**允许此来源**。
+  <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/zh/1.jpg" width="400" />
+  <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/zh/2.jpg" width="400" />
 
-* 安卓 6 和 7：打开**设置**，在**系统和设备**部分选择**其他设置**。启用**未知来源**并在系统警示窗口上点击**OK**。
+- 安卓 6 和 7：打开**设置**，在**系统和设备**部分选择**其他设置**。启用**未知来源**并在系统警示窗口上点击**OK**。
 
-* 安卓 5：打开**设置**，在**个人**设置部分选择**安全**。启用**未知来源**并在系统警示窗口上点击 **OK**。
+- 安卓 5：打开**设置**，在**个人**设置部分选择**安全**。启用**未知来源**并在系统警示窗口上点击 **OK**。
 
 现在您就可以在您的设备上安装应用程序了。打开浏览器并输入以下的网址：[https://adguard.com/apk](https://adguard.com/apk)，或扫 QR 码：
 
@@ -37,7 +37,7 @@ taxonomy:
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/zh/3.jpg" width="400" />
 
-下载完成后，系统将会确认您是否想安装 AdGuard 应用程序。点击**安装**。 
+下载完成后，系统将会确认您是否想安装 AdGuard 应用程序。点击**安装**。
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/zh/4.jpg" width="400" />
 
@@ -94,6 +94,7 @@ taxonomy:
 现在 **AdGuard** 安装成功完成。
 
 <a name="uninstall"></a>
+
 ## </a>卸载/重新安装 AdGuard
 
 如您想要在您的设备上重新安装 AdGuard，请您先删除应用程序，前往**设置** → **已安装的应用程序**（安卓 6）、**应用程序**（安卓 5 和 7）或**应用程序和通知**（安卓 8+）。在已安装的应用程序列表内找到 **AdGuard** 并点击**卸载**。

@@ -1,14 +1,14 @@
 ---
-title: 'Proxy certificate installation'
+title: "Proxy certificate installation"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
 Desktop AdGuard apps (AdGuard for Windows and AdGuard for Mac) can be used as a proxy. This means that you can route other devices' traffic through AdGuard (entirely, or traffic of specific apps/browsers).
 
->Note that these devices must be in the same network as the PC or Mac that has AdGuard installed.
+> Note that these devices must be in the same network as the PC or Mac that has AdGuard installed.
 
 HTTP traffic will be filtered in any case, but for AdGuard to be able to filter HTTPS traffic you need to manually install AdGuard certificate on the connected device.
 
@@ -22,7 +22,7 @@ Depending on the type of your device (Android/iOS), follow one of this instructi
 
 2. On the device which traffic you want to route through AdGuard, open advanced settings of the active WiFi network.
 
-3. Switch the **Proxy type** to **Manual**. For **Proxy hostname**, enter the noted IP-address from *1)*. For **Proxy port**, enter port chosen in desktop AdGuard's network settings.
+3. Switch the **Proxy type** to **Manual**. For **Proxy hostname**, enter the noted IP-address from _1)_. For **Proxy port**, enter port chosen in desktop AdGuard's network settings.
 
 4. Follow this link using any browser: [http://local.adguard.org/cert](http://local.adguard.org/cert)
 
@@ -38,7 +38,7 @@ Depending on the type of your device (Android/iOS), follow one of this instructi
 
 2. On the device which traffic you want to route through AdGuard, open advanced settings of the active WiFi network.
 
-3. Switch the **Proxy type** to **Manual**. For **Proxy hostname**, enter the noted IP-address from *1)*. For **Proxy port**, enter port chosen in desktop AdGuard's network settings.
+3. Switch the **Proxy type** to **Manual**. For **Proxy hostname**, enter the noted IP-address from _1)_. For **Proxy port**, enter port chosen in desktop AdGuard's network settings.
 
 4. Open Safari, go to [http://local.adguard.org/cert](http://local.adguard.org/cert) and tap **DOWNLOAD**. In the opened dialogue, allow the website to download a configuration profile.
 

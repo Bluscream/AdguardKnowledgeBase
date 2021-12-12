@@ -1,8 +1,8 @@
 ---
-title: 'Как получить логи установки AdGuard'
+title: "Как получить логи установки AdGuard"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 

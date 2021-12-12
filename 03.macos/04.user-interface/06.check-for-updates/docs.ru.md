@@ -1,8 +1,7 @@
 ---
-title: 'Проверить обновления'
+title: "Проверить обновления"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

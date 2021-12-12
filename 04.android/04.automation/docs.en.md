@@ -2,8 +2,8 @@
 title: How to automate AdGuard for Android
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
 
@@ -39,34 +39,31 @@ So, ready to get your hands dirty? Here are actions that, when included in the i
 
 `update` — checks for available filter and app updates, no additional data is needed;
 
------
+---
 
 <a name="action_dns_filtering"></a>
 
 `dns_filtering` — turns [DNS filtering](https://kb.adguard.com/en/general/dns-filtering-android) on and off. Requires an extra flag:
 
 `enable:true` or `enable:false` — enables or disables DNS filtering, accordingly.
-    
------
+
+---
 
 <a name="action_dns_server"></a>
 
 `dns_server` — switches between DNS servers, you need to include additional data:
 
- `server:cloudflare` — switches to a particular server by its short name;
-     
->NOTE: the full list of supported server names can be found inside AdGuard DNS settings under the "Secure DNS" tab
-     
-     
- `server:1.1.1.1,1.0.0.1` — switches to any cistom DNS server;
-     
-     
- `server:sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20` — switches to any custom DNS server via DNS-over-HTTPS, DNS-over-SSL or DNSCrypt;
-     
-     
- `server:system` — resets DNS settings to default system DNS servers.
-     
- -----
+`server:cloudflare` — switches to a particular server by its short name;
+
+> NOTE: the full list of supported server names can be found inside AdGuard DNS settings under the "Secure DNS" tab
+
+`server:1.1.1.1,1.0.0.1` — switches to any cistom DNS server;
+
+`server:sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20` — switches to any custom DNS server via DNS-over-HTTPS, DNS-over-SSL or DNSCrypt;
+
+`server:system` — resets DNS settings to default system DNS servers.
+
+---
 
 **Don't forget to include the password as an extra and mention package name and class! You need to do so for every intent!**
 

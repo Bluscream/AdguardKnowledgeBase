@@ -1,14 +1,13 @@
 ---
 title: 개요
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-
 
 [Android용 AdGuard](https://adguard.com/ko/adguard-android/overview.html)가 있는데 AdGuard 콘텐츠 차단기를 개발하는 이유는 무엇인가요?
 
-Google Play에서는 다양한 앱에서 광고를 차단하는 앱이 [금지](https://www.androidpolice.com/2016/03/01/google-explicitly-bans-ad-blockers-from-the-play-store-except-all-those-ad-blocking-web-browsers-apparently/)되었습니다. 스토어 정책에 따라 Google Play에 [고급 광고 차단기를 도입](https://adguard.com/en/blog/google-removes-adguard-android-app-google-play.html)할 수 없습니다. 
+Google Play에서는 다양한 앱에서 광고를 차단하는 앱이 [금지](https://www.androidpolice.com/2016/03/01/google-explicitly-bans-ad-blockers-from-the-play-store-except-all-those-ad-blocking-web-browsers-apparently/)되었습니다. 스토어 정책에 따라 Google Play에 [고급 광고 차단기를 도입](https://adguard.com/en/blog/google-removes-adguard-android-app-google-play.html)할 수 없습니다.
 
 광고 차단기 대신에 Google은 콘텐츠 차단 API를 제안합니다. 해당 API에는 많은 제한 사항이 있으며 Yandex 브라우저와 삼성 인터넷 브라우저에서만 지원됩니다.
 

@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard для Safari'
+title: "AdGuard для Safari"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Раздел 6

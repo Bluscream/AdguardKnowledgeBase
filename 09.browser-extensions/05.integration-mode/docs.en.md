@@ -1,8 +1,8 @@
 ---
-title: 'Integration mode'
+title: "Integration mode"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### What is integration mode?

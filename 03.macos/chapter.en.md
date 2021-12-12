@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard for macOS'
+title: "AdGuard for macOS"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 3

@@ -1,8 +1,8 @@
 ---
-title: 'Battery and traffic consumption issues'
+title: "Battery and traffic consumption issues"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -56,7 +56,7 @@ _cpu.active=_ 100-200mA additional consumption in mAh caused by CPU work.
 
 Formulа to calculate the consumption:
 
->"CPU TIME (ms)" X "cpu.active" / (60 * 60 * 1000) = "POWER USE mAh"
+> "CPU TIME (ms)" X "cpu.active" / (60 _ 60 _ 1000) = "POWER USE mAh"
 
 Let's put real numbers into this formula.
 
@@ -66,7 +66,7 @@ A coefficient _cpu.active_ for 2GHz will be roughly equal to 225mA
 
 Final result
 
->506000 * 225 / (60 * 60 * 1000) = 31,625mAh
+> 506000 _ 225 / (60 _ 60 \* 1000) = 31,625mAh
 
 ### Conclusion
 

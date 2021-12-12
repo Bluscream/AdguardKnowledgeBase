@@ -1,9 +1,8 @@
 ---
-title: 'Личный кабинет AdGuard'
+title: "Личный кабинет AdGuard"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
-

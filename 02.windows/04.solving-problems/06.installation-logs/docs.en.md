@@ -1,8 +1,8 @@
 ---
-title: 'How to find AdGuard installation logs'
+title: "How to find AdGuard installation logs"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 

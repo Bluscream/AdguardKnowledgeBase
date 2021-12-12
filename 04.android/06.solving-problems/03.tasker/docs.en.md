@@ -1,8 +1,8 @@
 ---
 title: How to automate AdGuard for Android
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 Many people choose Android because they like having the ability to customize things and want to control their device completely. And it's totally normal if some of AdGuard users are not satisfied with its default behavior. Let's say, you want protection to stop when a certain app is launched, and then restart it again when the app is closed. This is a job for a tasker app.
@@ -39,47 +39,45 @@ So, ready to get your hands dirty? Here are actions that, when included in the i
 
 `update` — checks for available filter and app updates, no additional data is needed;
 
------
+---
 
 <a name="action_dns_filtering"></a>
 
 `dns_filtering` — turns [DNS filtering](https://kb.adguard.com/en/general/dns-filtering-android) on and off. Requires an extra flag:
 
 `enable:true` or `enable:false` — enables or disables DNS filtering, accordingly.
-    
------
+
+---
 
 <a name="action_dns_server"></a>
 
 `dns_server` — switches between DNS servers, you need to include additional data:
 
- `server:adguard dns` — switches to AdGuard DNS server;
-     
->NOTE: the full list of supported provider names can be found inside AdGuard DNS settings under the "Custom DNS settings"
-        
- `server:custom` — switches to the previously added server named `custom`;     
-     
- `server:tls://dns.adguard.com` — creates a new server and switches to it if the previously added servers and providers don't contain a server with the same address. Otherwise, it switches to the respective server. You can add server addresses as IP ( regular DNS), `sdns://…` (DNSCrypt or DNS-over-HTTPS), `https://…` (DNS-over-HTTPS) or  `tls://...` (DNS-over-TLS);
- 
- `server:1.1.1.1, tls://1.1.1.1` — creates a server with comma separated addresses and switches to it. When adding a server via `server:1.1.1.1, tls://1.1.1.1`, the previously added server is removed. 
-     
- `server:system` — resets DNS settings to default system DNS servers.
-     
- -----
+`server:adguard dns` — switches to AdGuard DNS server;
+
+> NOTE: the full list of supported provider names can be found inside AdGuard DNS settings under the "Custom DNS settings"
+
+`server:custom` — switches to the previously added server named `custom`;
+
+`server:tls://dns.adguard.com` — creates a new server and switches to it if the previously added servers and providers don't contain a server with the same address. Otherwise, it switches to the respective server. You can add server addresses as IP ( regular DNS), `sdns://…` (DNSCrypt or DNS-over-HTTPS), `https://…` (DNS-over-HTTPS) or `tls://...` (DNS-over-TLS);
+
+`server:1.1.1.1, tls://1.1.1.1` — creates a server with comma separated addresses and switches to it. When adding a server via `server:1.1.1.1, tls://1.1.1.1`, the previously added server is removed.
+
+`server:system` — resets DNS settings to default system DNS servers.
+
+---
 
 <a name="action_outbound_proxy"></a>
 
-`proxy_state` – enables/disables the outbound proxy.  Requires an extra flag:
+`proxy_state` – enables/disables the outbound proxy. Requires an extra flag:
 
 `enable:true` or `enable:false` — activates or disactivates the outbound proxy, accordingly.
 
------
+---
 
 <a name="action_proxy_server"></a>
 
-
-
-`proxy_default` – sets the proxy from the list of previously added ones as default or creates a new one if server has not been added before. 
+`proxy_default` – sets the proxy from the list of previously added ones as default or creates a new one if server has not been added before.
 
 You need to specify additional data:
 
@@ -93,13 +91,14 @@ Or you can configure server parameters manually:
 
 `server:[name]` – where `[name]` is the name of the outbound proxy from the list.
 
-Or you  can configure remove parameters manually:
+Or you can configure remove parameters manually:
 
 `server:[type=…&host=…&port=…&username=…&password=…&udp=…&trust=…]`.
 
-* **Compulsory parameters**:
+- **Compulsory parameters**:
 
-`[type]` -  proxy server type:
+`[type]` - proxy server type:
+
 - HTTP;
 - SOCKS4;
 - SOCKS5;
@@ -109,21 +108,21 @@ Or you  can configure remove parameters manually:
 
 `[port]` - outbound proxy port (Integer number from 1 to 65535);
 
-* **Optional parameters**:
+- **Optional parameters**:
 
- `[login and password]` - only if proxy requires it. This data is ignored when setting up **SOCKS4**;
- 
- `[udp]` - applied only on **SOCKS5** server type and include option **UDP through SOCKS5**. It is necessary to set **true or false** value;
- 
- `[trust]` - applies for **HTTPS_CONNECT** server type only and include option **Trust any certificates**. It is necessary to set **true or false** value.
+`[login and password]` - only if proxy requires it. This data is ignored when setting up **SOCKS4**;
 
- > **Example**:
- 
+`[udp]` - applied only on **SOCKS5** server type and include option **UDP through SOCKS5**. It is necessary to set **true or false** value;
+
+`[trust]` - applies for **HTTPS_CONNECT** server type only and include option **Trust any certificates**. It is necessary to set **true or false** value.
+
+> **Example**:
+
 `setting by name`: server:MyServer
 
- `manually settings`: server:host=1.2.3.4&port=80&type=SOCKS5&username=foo&password=bar&udp=true
+`manually settings`: server:host=1.2.3.4&port=80&type=SOCKS5&username=foo&password=bar&udp=true
 
------
+---
 
 **Don't forget to include the password as an extra and mention package name and class! You need to do so for every intent!**
 

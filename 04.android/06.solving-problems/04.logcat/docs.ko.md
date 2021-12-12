@@ -1,10 +1,11 @@
 ---
-title: 'Logcat log 수집 방법'
+title: "Logcat log 수집 방법"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
+
 # 일반 지침
 
 충돌 문제 해결 시 일반 로그 수집으로는 충분하지 않기 때문에 시스템 로그 수집이 필요합니다. 로그 수집 방법은 다음과 같습니다.
@@ -13,32 +14,33 @@ visible: true
 
 기기에서 직접 버그 보고서를 받으려면 다음을 수행하십시오.
 
-1) 기기가 개발자용으로 설정되어 있는지 확인합니다. 기기를 개발자용으로 설정하는 방법은 [https://developer.android.com/studio/run/device.html#developer-device-options](https://developer.android.com/studio/run/device.html#developer-device-options) 에서 확인할 수 있습니다.
+1. 기기가 개발자용으로 설정되어 있는지 확인합니다. 기기를 개발자용으로 설정하는 방법은 [https://developer.android.com/studio/run/device.html#developer-device-options](https://developer.android.com/studio/run/device.html#developer-device-options) 에서 확인할 수 있습니다.
 
-2) **개발자 옵션**에서 **버그 신고**를 탭합니다.
+2. **개발자 옵션**에서 **버그 신고**를 탭합니다.
 
 <center><img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Ko/LogCat/kor1.png" width="301" /></center>
 <center><i>개발자 옵션</i></center>
 <br><br>
 
-3) 버그 보고서의 유형을 선택하고 **신고**를 누릅니다.
->잠시 후 버그 보고서가 준비되었다는 알림이 표시됩니다.
+3. 버그 보고서의 유형을 선택하고 **신고**를 누릅니다.
+   > 잠시 후 버그 보고서가 준비되었다는 알림이 표시됩니다.
 
 <center><img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Ko/LogCat/kor2.png" width="301" /></center>
 <center><i>버그 보고서가 준비된 상태</i></center>
 <br><br>
 
-4) 알림을 누릅니다
+4. 알림을 누릅니다
 
 <center><img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Ko/LogCat/3.png" width="301" /></center>
 <center><i>버그 신고 파일 구조</i></center>
 <br><br>
 
-5) 이 로그를 [지원팀](mailto:support@adguard.com)에 보냅니다. 
+5. 이 로그를 [지원팀](mailto:support@adguard.com)에 보냅니다.
 
 > 참고 : 메시지에 헬프 데스크 티켓 번호 또는 GitHub 문제 번호를 첨부하면 지원팀이 티켓을 더 빠르게 처리할 수 있습니다.
 
 # 추가 지침 (Android 구 버전용)
+
 구형 Android 기기에서는 버그를 자동으로 제보할 수 없습니다.
 
 수동으로 수행해 주세요.
@@ -71,7 +73,7 @@ visible: true
 
 3. 콘솔에서 이 명령을 실행합니다 (설치 후 열림):
 
->adb logcat -v threadtime -d > C:\logcat.txt
+> adb logcat -v threadtime -d > C:\logcat.txt
 
 지원팀에 문의하거나 다른 방법으로 이 로그를 보내주세요.
 
@@ -87,4 +89,4 @@ visible: true
 
 5. 이 로그를 지원팀에 보냅니다.
 
->참고 : 메시지에 헬프 데스크 티켓 번호 또는 GitHub 문제 번호를 첨부 시 지원팀이 문제를 더 빠르게 처리할 수 있습니다.
+> 참고 : 메시지에 헬프 데스크 티켓 번호 또는 GitHub 문제 번호를 첨부 시 지원팀이 문제를 더 빠르게 처리할 수 있습니다.

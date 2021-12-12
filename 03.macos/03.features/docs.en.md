@@ -1,8 +1,8 @@
 ---
 title: Features
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
 
@@ -35,4 +35,3 @@ Blocks popup ads on web pages.
 **Web of Trust**
 
 Shows Internet users’ opinions regarding any website.
-

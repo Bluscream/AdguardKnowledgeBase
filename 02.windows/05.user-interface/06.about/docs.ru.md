@@ -1,8 +1,7 @@
 ---
-title: 'О программе'
+title: "О программе"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

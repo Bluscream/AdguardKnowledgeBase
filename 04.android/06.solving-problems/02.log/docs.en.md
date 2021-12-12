@@ -1,16 +1,16 @@
 ---
-title: 'Collecting a log on AdGuard for Android'
+title: "Collecting a log on AdGuard for Android"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
-* [How to collect debug log?](#debug)
+- [How to collect debug log?](#debug)
 
-* [How to collect web requests log?](#web)
+- [How to collect web requests log?](#web)
 
-Sometimes in order to understand a problem and fix it we need to collect **log files**, or **logs**. Basically, these files contain information about the program and it's work. 
+Sometimes in order to understand a problem and fix it we need to collect **log files**, or **logs**. Basically, these files contain information about the program and it's work.
 
 <a id="debug"></a>
 
@@ -28,7 +28,7 @@ To collect **debug** log and send it to us you need to perform following steps:
 
 5. Send us a message from program by choosing "Send Feedback" in the menu. Don't forget to check the "Send detailed system info" checkbox under the text field and to include the timestamp from the step 4 into the message.
 
-As an alternative, you can export the logs (along with the *state.txt* file that contains system information and information about AdGuard settings) directly into a local file. It can be convenient, for example, if you are having a conversation with a developer on [GitHub](https://github.com/Adguardteam/), [forum](https://forum.adguard.com/) or on another platform.
+As an alternative, you can export the logs (along with the _state.txt_ file that contains system information and information about AdGuard settings) directly into a local file. It can be convenient, for example, if you are having a conversation with a developer on [GitHub](https://github.com/Adguardteam/), [forum](https://forum.adguard.com/) or on another platform.
 
 To export logs and system information into a file, go to "Settings — Advanced" and tap on "Export logs and system info". Select the destination folder and tap on "Save".
 
@@ -48,7 +48,7 @@ To collect **web requestts** log and send it to us you need to perform following
 
 5. Send us a message from program by choosing "Send Feedback" in the menu. Don't forget to check the "Send detailed system info" checkbox under the text field and to include the timestamp from the step 4 into the message.
 
-As an alternative, you can export the logs (along with the *state.txt* file that contains system information and information about AdGuard settings) directly into a local file. It can be convenient, for example, if you are having a conversation with a developer on [GitHub](https://github.com/Adguardteam/), [forum](https://forum.adguard.com/) or on another platform.
+As an alternative, you can export the logs (along with the _state.txt_ file that contains system information and information about AdGuard settings) directly into a local file. It can be convenient, for example, if you are having a conversation with a developer on [GitHub](https://github.com/Adguardteam/), [forum](https://forum.adguard.com/) or on another platform.
 
 To export logs and system information into a file, go to "Settings — Advanced" and tap on "Export logs and system info". Select the destination folder and tap on "Save".
 <br>

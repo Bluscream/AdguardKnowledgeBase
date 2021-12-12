@@ -1,9 +1,8 @@
 ---
-title: 'User Interface'
+title: "User Interface"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
-

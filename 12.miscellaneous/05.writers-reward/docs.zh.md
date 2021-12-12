@@ -1,8 +1,8 @@
 ---
-title: '撰写有关 AdGuard 的文章'
+title: "撰写有关 AdGuard 的文章"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 

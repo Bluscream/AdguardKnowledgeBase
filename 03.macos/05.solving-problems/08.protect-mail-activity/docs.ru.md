@@ -1,8 +1,8 @@
 ---
-title: 'Protect Mail Activity и AdGuard'
+title: "Protect Mail Activity и AdGuard"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -10,12 +10,11 @@ visible: true
 
 Приложение Apple Mail теперь использует прокси-сервер для скрытия IP-адреса пользователя при загрузке изображений из электронных писем.
 
-<img src="https://cdn.adguard.com/public/Adguard/kb/MAC/mac_protectMailActivity.png">. 
+<img src="https://cdn.adguard.com/public/Adguard/kb/MAC/mac_protectMailActivity.png">.
 
 Однако, это не работает при наличии активного VPN-соединения. Поскольку AdGuard рассматривается системой Apple Mail как VPN, изображения автоматически перестают загружаться.
 
 Apple комментирует эту проблему [здесь](https://support.apple.com/HT212797).
-
 
 ## Детальное описание проблемы
 
@@ -27,14 +26,15 @@ Network extensions API имеет VPN-подобную конфигурацию 
 На Monterey появилась функция iCloud Private Relay. Функции конфиденциальности в Mail.app также используют серверы iCloud Private Relay.
 
 В результате AdGuard не может работать вместе с iCloud Private Relay и функциями конфиденциальности Mail.app:
+
 1. iCloud Private Relay применяется к соединениям на уровне библиотек - до того, как они достигают уровня сокета, где работает AdGuard.
 2. iCloud Private Relay использует QUIC, который AdGuard не может фильтровать в фильтруемых приложениях, поскольку фильтрация HTTP/3 не внедрена.
 3. Поэтому AdGuard блокирует QUIC, включая и трафик iCloud Private Relay - иначе блокировка рекламы невозможна.
-4. При использовании iCloud Private Relay и переключении AdGuard в режим "split-tunnel" невозможно открыть веб-сайты в Safari. 
+4. При использовании iCloud Private Relay и переключении AdGuard в режим "split-tunnel" невозможно открыть веб-сайты в Safari.
 5. Чтобы обойти эту проблему для Monterey, мы применяем правило "default rout". Когда Private Relay видит это правило, он автоматически отключается.
-Таким образом, AdGuard работает без проблем на Monterey, но iCloud Private Relay отключается.
+   Таким образом, AdGuard работает без проблем на Monterey, но iCloud Private Relay отключается.
 
-``network.extension.monterey.force.split.tunnel`` восстанавливает поведение "Big Sur", но этот вариант может нарушить доступ к веб-сайтам из-за (3) и (4).
+`network.extension.monterey.force.split.tunnel` восстанавливает поведение "Big Sur", но этот вариант может нарушить доступ к веб-сайтам из-за (3) и (4).
 
 Мы продолжаем искать решение этой проблемы. Одним из вариантов является внедрение фильтрации HTTP/3.
 

@@ -1,26 +1,29 @@
 ---
-title: 'AdGuard 许可密钥'
+title: "AdGuard 许可密钥"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
-* [什么是  AdGuard 许可密钥？](#key)
-* [如何使用许可密钥激活 AdGuard ？](#activation)
-* [如何恢复我的许可密钥？](#recovery)
-* [如何注册 AdGuard 帐号？](#account)
-* [AdGuard 帐号有什么可用的功能？](#account-functions)
-* [更新密钥后，该做什么？](#renewal)
-* [支付方式](#payment)
-* [退款政策](#refund)
+- [什么是 AdGuard 许可密钥？](#key)
+- [如何使用许可密钥激活 AdGuard ？](#activation)
+- [如何恢复我的许可密钥？](#recovery)
+- [如何注册 AdGuard 帐号？](#account)
+- [AdGuard 帐号有什么可用的功能？](#account-functions)
+- [更新密钥后，该做什么？](#renewal)
+- [支付方式](#payment)
+- [退款政策](#refund)
 
 <a name="key"></a>
-#### 什么是  AdGuard 许可密钥？
+
+#### 什么是 AdGuard 许可密钥？
+
 许可密钥是一串用于激活 AdGuard 的独一无二的字符。试用期到期后，需要使用许可密钥才能全面运行 AdGuard。有两种类型的许可：
+
 1. **个人**。 该许可密钥让您可以**在任意三台**设备上激活 AdGuard。
-2. **家庭**。该许可密钥让您可以**在任意九台**设备上激活 AdGuard。 
->**请注意**：许可密钥都是通用的。您可以在不同操作系统使用许可，包括 Windows、Mac、Android 或 iOS 等平台上激活 AdGuard。 
+2. **家庭**。该许可密钥让您可以**在任意九台**设备上激活 AdGuard。
+   > **请注意**：许可密钥都是通用的。您可以在不同操作系统使用许可，包括 Windows、Mac、Android 或 iOS 等平台上激活 AdGuard。
 
 您可以通过 [AdGuard 帐号](http://adguard.com/login.html) 管理许可密钥。
 点击[这里](https://adguard.com/license.html)，购买 AdGuard 许可密钥。
@@ -28,12 +31,12 @@ visible: true
 <a name="activation"></a>
 
 ## 如何使用许可密钥激活 AdGuard ？
-* [激活适用于 Windows 的 AdGuard](#activation_windows)
-* [激活适用于 Mac 的 AdGuard](#activation_mac)
-* [激活适用于 Android 的 AdGuard](#activation_android)
-* [激活适用于 iOS 的AdGuard](#activation_iOS) 
-* [把许可密钥绑定到另一台设备](#activation_info)
 
+- [激活适用于 Windows 的 AdGuard](#activation_windows)
+- [激活适用于 Mac 的 AdGuard](#activation_mac)
+- [激活适用于 Android 的 AdGuard](#activation_android)
+- [激活适用于 iOS 的 AdGuard](#activation_iOS)
+- [把许可密钥绑定到另一台设备](#activation_info)
 
 <a id="activation_windows"></a>
 
@@ -50,9 +53,10 @@ visible: true
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/Windows2.jpg" />
 
 2. 前往右上角主菜单中的**许可**，点击**激活许可**。
-<img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/Windows3.jpg"/>
+   <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/Windows3.jpg"/>
 
 3. 您有两种激活方式：
+
 - 输入您 AdGuard 帐号的电子邮件地址和密码。
 
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/Windows4.jpg"/>
@@ -63,7 +67,7 @@ visible: true
 
 <a id="activation_mac"></a>
 
-#### 激活适用于 Mac 的 AdGuard 
+#### 激活适用于 Mac 的 AdGuard
 
 1. 打开 AdGuard 菜单
 
@@ -78,8 +82,8 @@ visible: true
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/macOS1.png" />
 
 4. 您有两种激活方式：
-- 使用 **AdGuard 个人帐号**的**用户名**和**密码**激活软件。
 
+- 使用 **AdGuard 个人帐号**的**用户名**和**密码**激活软件。
 
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/macOS2.png" />
 
@@ -89,7 +93,7 @@ visible: true
 
 <a id="activation_android"></a>
 
-#### 激活适用于 Android 的 AdGuard  
+#### 激活适用于 Android 的 AdGuard
 
 1. 打开应用程序，前往许可菜单。
 
@@ -100,12 +104,12 @@ visible: true
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/Android1.jpg" width="350" />
 
 2. 点击屏幕**右上角**的三点。
-在弹出的小窗口中陈列三种选项：
+   在弹出的小窗口中陈列三种选项：
 
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/Android2.jpg" width="350" />
 
-- 免费试用（试用期为14天）。
--  激活**高级版本**。
+- 免费试用（试用期为 14 天）。
+- 激活**高级版本**。
 - 恢复购买（若您重新安装应用程序，需要恢复许可）。
 
 3. 点击**激活高级版本**后，您有几种激活方式：
@@ -119,10 +123,9 @@ visible: true
 
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/Android4.jpg" width="350" />
 
-
 <a id="activation_iOS"></a>
 
-#### 激活适用于 iOS 的 AdGuard 
+#### 激活适用于 iOS 的 AdGuard
 
 1. 打开应用的菜单，点击屏幕右上角的**齿轮图标**。
 
@@ -131,17 +134,18 @@ visible: true
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/iOS1.PNG" width="350" />
 
 3. 您也可以在 **AppStore** 直接购买许可或通过**登录 AdGuard 帐号**激活高级版本。
-> 注意：为了激活成功，您帐号最少需要有一个**可用**的许可。
+   > 注意：为了激活成功，您帐号最少需要有一个**可用**的许可。
 
 <img src="https://cdn.adguard.com/public/Adguard/Blog/Blog_ZH_CN/license-key/iOS2.PNG" width="350" />
 
-
 <a id="activation_info"></a>
+
 #### 把许可绑定到另一台设备
 
 通过许可密钥激活软件后，该密钥会绑定到您使用的设备。许可密钥可以在一定数量的设备上被激活。如果该许可密钥已达到设备使用数量的上限，则重新使用该密钥前，您要在 [AdGuard 帐号](#account-functions)重新设置它。
 
 <a id="recovery"></a>
+
 ## 如何恢复我的许可密钥？
 
 在 [AdGuard 帐号](#account)里可以很容易查找您的许可密钥。
@@ -151,6 +155,7 @@ visible: true
 **请注意**，一般只查找您的许可密钥是不够的。如您已经在另一台电脑上使用过该密钥的话，首先需要登录 [AdGuard 帐号](#account)，把许可密钥从该电脑中解绑。
 
 <a id="account"></a>
+
 ## 如何注册 AdGuard 帐号？
 
 如您购买了 AdGuard 许可密钥，您的帐号就已经通过您购买 AdGuard 时输入的电子邮件地址注册成功了。彼时，您将会收到电子邮件通知您已自动注册个人账号。邮件内容还会包括激活链接。如您没收到该电子邮件或忘记了密码，可以[恢复您的密码](http://adguard.com/recovery_password.html)。
@@ -162,6 +167,7 @@ AdGuard 帐号为您提供管理许可密钥并其绑定到设备的机会。
 [于以下](#account-functions)查找更多帐号的功能。
 
 <a id="account-functions"></a>
+
 ## AdGuard 帐号有什么可用的功能？
 
 当您进入 [AdGuard 个人帐号](https://adguard.com/en/login.html)后，可以看到您的许可密钥的列表和其当前状态。
@@ -187,6 +193,7 @@ AdGuard 帐号为您提供管理许可密钥并其绑定到设备的机会。
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/En/General/unsubscribe-change-card-cn.png?" width="900" />
 
 <a name="renewal"></a>
+
 ## 更新密钥后，该做什么？
 
 当 AdGuard 续订一年后，您需要重新启动应用程序或转到“许可证”部分并刷新许可状态，以使更改生效。
@@ -195,7 +202,7 @@ AdGuard 帐号为您提供管理许可密钥并其绑定到设备的机会。
 
 #### 支付方式
 
-您可以在我们的官方网站购买 AdGuard 许可： 
+您可以在我们的官方网站购买 AdGuard 许可：
 
 1\. 前往[购买页](http://adguard.com/license.html)。
 
@@ -206,7 +213,6 @@ AdGuard 帐号为您提供管理许可密钥并其绑定到设备的机会。
 4\. 选择您想用的货币、许可期间和您想把 AdGuard 绑定到设备的数量。
 
 5\. 输入并确认您的电子邮件地址。
-
 
 _**注意！** 请您谨慎对待您输入的邮箱地址。我们会自动用它创建您个人的 AdGuard 帐号。确保没有任何错误。_
 

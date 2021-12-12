@@ -1,13 +1,13 @@
 ---
-title: '其他'
+title: "其他"
 taxonomy:
-    category: 
-        - chapter
+  category:
+    - chapter
 published: true
 visible: true
 ---
 
-### 第12章
+### 第 12 章
 
 # 其他
 

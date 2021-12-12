@@ -1,14 +1,14 @@
 ---
-title: '对 AdGuard 过滤器做出贡献'
+title: "对 AdGuard 过滤器做出贡献"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
-* [过滤规则](＃filtering-rules)
-* [如何开始？](＃how-to-start)
-* [奖励](＃rewards)
+- [过滤规则](＃filtering-rules)
+- [如何开始？](＃how-to-start)
+- [奖励](＃rewards)
 
 <a name="filtering-rules"></a>
 

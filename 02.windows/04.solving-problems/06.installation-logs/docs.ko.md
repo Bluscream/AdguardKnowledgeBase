@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard 설치 로그를 수집하는 방법'
+title: "AdGuard 설치 로그를 수집하는 방법"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 

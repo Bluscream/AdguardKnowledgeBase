@@ -1,9 +1,8 @@
 ---
-title: 'Popup Blocker'
+title: "Popup Blocker"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
-

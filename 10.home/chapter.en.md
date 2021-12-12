@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard Home'
+title: "AdGuard Home"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 10

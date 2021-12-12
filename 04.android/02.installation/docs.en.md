@@ -1,11 +1,11 @@
 ---
 title: Installation
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
-## System  requirements
+## System requirements
 
 **OS version:** Android 5.0 or higher.
 
@@ -14,18 +14,19 @@ taxonomy:
 **Free disk space:** 120 Mbytes.
 
 ## Installation
+
 Most Android-based apps are distributed via Google Play Market; however, AdGuard is not presented there, because Google prohibits distribution of network-level ad blockers via Google Play, i.e. apps that block commercials in other apps. You will find more information about Google restrictive policy [in our blog](https://blog.adguard.com/en/google-removes-adguard-android-app-google-play/).
 
 That’s why you can only install AdGuard for Android manually. To use the app on your mobile device, you will need to do the following.
 
 First of all, allow installing apps from unknown sources in your device’s OS settings. For this you will need to:
 
-* For Android 8+: start downloading AdGuard apk (see next step), you'll be prompted to allow permission. Tap **Settings** in the opened window and enable **Allow from this source** switch. Then resume the installation.
-* For Android 6 and 7: open **Settings**, then select **Additional settings** in **System & Device**. Switch on **Unknown sources** and press **OK** in the system warning window.
+- For Android 8+: start downloading AdGuard apk (see next step), you'll be prompted to allow permission. Tap **Settings** in the opened window and enable **Allow from this source** switch. Then resume the installation.
+- For Android 6 and 7: open **Settings**, then select **Additional settings** in **System & Device**. Switch on **Unknown sources** and press **OK** in the system warning window.
 
 ![](android_install_EN_01.png?cropResize=400,600)
 
-* For Android 5: open **Settings**, then select **Security** in the **Personal** section. Switch on **Unknown sources** and press **OK** in the system warning window.
+- For Android 5: open **Settings**, then select **Security** in the **Personal** section. Switch on **Unknown sources** and press **OK** in the system warning window.
 
 ![](android_install_EN_02.png?cropResize=400,600)
 
@@ -41,16 +42,16 @@ When the download is complete, the system will ask you if you want to install th
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/en/1.png" width="400" />
 
-You will then be asked to read the **License agreement** and AdGuard's **Privacy Policy**. 
-You can also participate in product development. To do this, you should check boxes *Send automatic crash reports* and *Send technical and interaction data*. Tap **Accept** after that.
+You will then be asked to read the **License agreement** and AdGuard's **Privacy Policy**.
+You can also participate in product development. To do this, you should check boxes _Send automatic crash reports_ and _Send technical and interaction data_. Tap **Accept** after that.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/en/2.png" width="400" />
 
-Then you'll need to choose between a **Quick** and **Thorough** set-ups. 
+Then you'll need to choose between a **Quick** and **Thorough** set-ups.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/en/3.png" width="400" />
 
-The first one will ask you to enable local VPN which is required for AdGuard to function. 
+The first one will ask you to enable local VPN which is required for AdGuard to function.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Android/en/4.png" width="400" />
 
@@ -85,6 +86,7 @@ The last step is to enable local VPN:
 The **AdGuard** application installation is complete.
 
 <a name="uninstall"></a>
+
 ## </a>Uninstalling/Reinstalling Аdguard
 
 If you need to reinstall AdGuard on your mobile device, first delete it by opening **Settings** and choosing **Installed Apps** (Android 6), **Apps** (Android 5 and 7) or **Apps & notifications** (Android 8+). Find **AdGuard** in the list of installed apps and press **Uninstall**.

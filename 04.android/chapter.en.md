@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard for Android'
+title: "AdGuard for Android"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 4

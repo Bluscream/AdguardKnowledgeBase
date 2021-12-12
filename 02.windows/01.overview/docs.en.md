@@ -1,8 +1,8 @@
 ---
 title: Overview
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 AdGuard has been created to make your browsing experience pleasant and comfortable. It is not just a web filter and ad blocker – it is a convenient and fully adjustable tool that helps you save your traffic, load your web pages faster, and protect your computer from undesirable and potentially malicious content. With AdGuard, you can forget all about annoying banners and popup windows. This is not the whole scope of the application’s capabilities, though. AdGuard will protect you from phishing websites, and your children from information they should not yet come across due to age restrictions. However, everything in its turn.
@@ -11,7 +11,7 @@ Adguard’s main function is filtering ads on websites you are visiting. It does
 
 An important feature of AdGuard for Windows is that it filters off the ads even before the web page is loaded in the browser, thus significantly lowering the Internet data sharing (which is an important factor if you pay for traffic use) and accelerating web surfing. Apart from filtering ads, AdGuard for Windows protects its users from potential malware, spyware, and fraudulent websites. The so-called phishing Internet sites are of particular concern.
 
->Phishing is a common web fraud aimed at stealing your personal data (passwords, bank account details, etc.). It is carried out using fake web pages mimicking popular websites or real services, such as web stores or social networks.
+> Phishing is a common web fraud aimed at stealing your personal data (passwords, bank account details, etc.). It is carried out using fake web pages mimicking popular websites or real services, such as web stores or social networks.
 
 A special module, Browsing Security, protects AdGuard for Windows users from this type of fraud and warns them of attempts at redirection to potentially malicious websites. The Browsing Security database is updated automatically, and is always up-to-date.
 

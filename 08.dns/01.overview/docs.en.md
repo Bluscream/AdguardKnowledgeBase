@@ -1,8 +1,8 @@
 ---
 title: Overview
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 AdGuard DNS is a foolproof way to block tracking and ads on the Internet that does not require installing any applications. It is easy to use, privacy-friendly, absolutely free, can be effortlessly set up on any device, and provides you with minimal necessary functions to block ads, trackers, malicious websites, and adult content (optionally).
@@ -19,17 +19,17 @@ AdGuard DNS can work on any devices, including smartphones and tablet PCs. There
 
 ### Advantages of AdGuard DNS
 
-* Does not require installation of any applications. All you need to do is to follow this [simple setup guide](https://kb.adguard.com/en/dns/setup-guide).
+- Does not require installation of any applications. All you need to do is to follow this [simple setup guide](https://kb.adguard.com/en/dns/setup-guide).
 
-* AdGuard DNS is **open source and absolutely free** in personal use.
+- AdGuard DNS is **open source and absolutely free** in personal use.
 
-* Supports all modern DNS privacy standards: DNSCrypt, DNS-over-HTTPS, DNS-over-TLS. 
+- Supports all modern DNS privacy standards: DNSCrypt, DNS-over-HTTPS, DNS-over-TLS.
 
-* It has two modes: "Default" for blocking ads and trackers, and "Family" for the same functionality plus parental control tools.
- 
-* We have strict [no logging policy](https://adguard.com/en/privacy/dns.html). We do not preserve any personal data or log your activity. Your anonymity will be maintained.
+- It has two modes: "Default" for blocking ads and trackers, and "Family" for the same functionality plus parental control tools.
 
-* You can use it on any Windows, macOS, Android, or iOS operated device.
+- We have strict [no logging policy](https://adguard.com/en/privacy/dns.html). We do not preserve any personal data or log your activity. Your anonymity will be maintained.
+
+- You can use it on any Windows, macOS, Android, or iOS operated device.
 
 ### How to configure AdGuard DNS?
 

@@ -1,9 +1,8 @@
 ---
-title: 'Web of Trust'
+title: "Web of Trust"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
-

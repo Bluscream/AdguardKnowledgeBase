@@ -1,24 +1,24 @@
 ---
-title: 'How ad blocking works'
+title: "How ad blocking works"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
-*   [Introduction](#introduction)
-*   [General principle](#general)
-*   [Filter lists](#filter-lists)
-*   [Types of filtering rules](#types-filtering)
-    *   [Basic filtering rules](#basic)
-    *   [Cosmetic filtering rules](#cosmetic)
-    *   [HTML filtering rules](#html)
+- [Introduction](#introduction)
+- [General principle](#general)
+- [Filter lists](#filter-lists)
+- [Types of filtering rules](#types-filtering)
+  - [Basic filtering rules](#basic)
+  - [Cosmetic filtering rules](#cosmetic)
+  - [HTML filtering rules](#html)
 
 <a name="introduction"></a>
 
 ## Introduction
 
-There are many different AdGuard ad blocker products for various platforms, each has its one unique features. But what unites them all is that they block ads and trackers. This article describes how ad blocking works from inside. 
+There are many different AdGuard ad blocker products for various platforms, each has its one unique features. But what unites them all is that they block ads and trackers. This article describes how ad blocking works from inside.
 
 > We don't cover DNS filtering here. It's a different way of blocking ads, with its own advantages and disadvantages. Follow this link to [learn more about DNS filtering](https://kb.adguard.com/en/general/dns-filtering).
 
@@ -47,7 +47,6 @@ AdGuard users [have access to a special web reporting tool](https://reports.adgu
 Filters can do more than just block ads. There are filters that block tracking, social media widgets, annoyances like cookie notices, etc. Different users may choose different combinations of filters to match their personal preferences. There are websites like [filterlists.com](https://filterlists.com/) that are dedicated to filter lists and have a huge database.
 
 > We develop and maintain [our own set of filter lists](https://kb.adguard.com/en/general/adguard-ad-filters) that can be used with AdGuard or other ad blockers.
-
 
 <a name="types-filtering"></a>
 

@@ -3,8 +3,8 @@ title: Features
 published: true
 visible: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 AdGuard for Android is a unique mobile application that blocks any ads on web pages you are viewing and in apps installed on your smartphone or tablet PC, protects its user from malware and spyware, and safeguarding their personal data from statistics gathering systems. Main functions of AdGuard for Android are presented below.

@@ -1,8 +1,7 @@
 ---
-title: 'Check for updates'
+title: "Check for updates"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

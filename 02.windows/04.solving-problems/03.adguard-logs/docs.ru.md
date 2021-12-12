@@ -1,8 +1,8 @@
 ---
-title: 'Как получить логи AdGuard'
+title: "Как получить логи AdGuard"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -40,6 +40,7 @@ visible: true
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Ru/Windows7.1/logs_adguard_5.png" style="border: 1px solid #efefef; max-width: 650px; padding: 2px;">
 
 5. Воспроизведите проблему.
+
 - Настоятельно советуем обратить внимание на время воспроизведения, это значительно поможет нашей команде поддержки в решении проблемы.
 
 6. Экспортируйте полученные логи при помощи кнопки **Экпортировать лог**.

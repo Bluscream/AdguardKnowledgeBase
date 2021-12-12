@@ -1,14 +1,14 @@
 ---
-title: '代理证书安装'
+title: "代理证书安装"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
 桌面 AdGuard 应用程序 (适用于 Windows 和 Mac 的 AdGuard) 可以用作代理。这意味着您可以通过 AdGuard 路由其他设备的流量（全部或特定应用程序或浏览器的流量）。
 
->请注意，这些设备必须与已安装 AdGuard 的 PC 或 Mac 位于同一网络中。
+> 请注意，这些设备必须与已安装 AdGuard 的 PC 或 Mac 位于同一网络中。
 
 在任何情况下，HTTP 流量都会被过滤，但是要使 AdGuard 能够过滤 HTTPS 流量，您需要在连接的设备上手动安装 AdGuard 证书。
 
@@ -38,7 +38,7 @@ visible: true
 
 2.在要通过 AdGuard 路由流量的设备上，打开主动 WiFi 网络的高级设置。
 
-3.将**代理类型**切换为**手动**。对于**代理主机名**，请输入在第一步记下的 IP 地址。对于**代理端口**，输入在桌面 AdGuard 的网络设置中选择的端口。     
+3.将**代理类型**切换为**手动**。对于**代理主机名**，请输入在第一步记下的 IP 地址。对于**代理端口**，输入在桌面 AdGuard 的网络设置中选择的端口。
 
 4.打开 Safari，转到[http://local.adguard.org/cert](http://local.adguard.org/cert)，然后点击**下载**。在打开的对话框中，允许网站下载配置文件。
 

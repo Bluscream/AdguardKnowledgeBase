@@ -1,8 +1,8 @@
 ---
-title: 'Manual certificate installation on devices with Android 11'
+title: "Manual certificate installation on devices with Android 11"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -12,22 +12,22 @@ To be able to filter HTTPS traffic (which is extremely important as most ads use
 
 To manually install AdGuard certificate:
 
-1) Go to the app's main screen and tap on *HTTPS filtering* (it will be highlighted in red if AdGuard certificate is not installed yet)
+1. Go to the app's main screen and tap on _HTTPS filtering_ (it will be highlighted in red if AdGuard certificate is not installed yet)
 
-2) Enable the switch at the top
+2. Enable the switch at the top
 
-3) A new screen will appear, tap twice on the *Next* button and then on *Save it now* when prompted to download an AdGuard certificate
+3. A new screen will appear, tap twice on the _Next_ button and then on _Save it now_ when prompted to download an AdGuard certificate
 
-4) After the certificate is downloaded, you will see a new screen. Tap on the *Open security settings* button there
+4. After the certificate is downloaded, you will see a new screen. Tap on the _Open security settings_ button there
 
-5) This will bring up system settings. Scroll down to *Advanced*, open it and then tap on *Encryption & credentials*
+5. This will bring up system settings. Scroll down to _Advanced_, open it and then tap on _Encryption & credentials_
 
-6) Tap on *Install certificate* and then on *CA certificate*
+6. Tap on _Install certificate_ and then on _CA certificate_
 
-7) A warning message will appear. Read through it and tap *Install anyway* to proceed
+7. A warning message will appear. Read through it and tap _Install anyway_ to proceed
 
-8) Select the recently downloaded AdGuard certificate. A *CA certificate installed* toast message should show up
+8. Select the recently downloaded AdGuard certificate. A _CA certificate installed_ toast message should show up
 
-9) The AdGuard certificate is successfully installed and HTTPS filtering is working now!
+9. The AdGuard certificate is successfully installed and HTTPS filtering is working now!
 
->If you update from Android 10 to Android 11, there's a chance that already installed certificate will still be accepted. Otherwise, the *HTTPS filtering* string on the main screen will be red and you'll need to go through the same process of reinstalling a certificate manually.
+> If you update from Android 10 to Android 11, there's a chance that already installed certificate will still be accepted. Otherwise, the _HTTPS filtering_ string on the main screen will be red and you'll need to go through the same process of reinstalling a certificate manually.

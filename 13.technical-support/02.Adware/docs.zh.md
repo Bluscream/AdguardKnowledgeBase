@@ -2,9 +2,10 @@
 title: 恶意广告软件/病毒
 published: true
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
+
 ## 介绍
 
 如果您怀疑计算机被恶意软件植入或病毒感染了，首先可以使用领先的防病毒软件的实用程序检查您的计算机。
@@ -32,8 +33,7 @@ taxonomy:
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Zh/adwcleaner2.png" />
 
-3.将选项被移至**隔离区后**，您将能够**清除系统**中不必要的选项。
-4.在某些情况下，清洁完成后，您可能需要**重新启动系统**。
+3.将选项被移至**隔离区后**，您将能够**清除系统**中不必要的选项。 4.在某些情况下，清洁完成后，您可能需要**重新启动系统**。
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Zh/adwcleaner3.png" />
 
@@ -48,6 +48,7 @@ taxonomy:
 在此页接下来的内容中，我们会介绍如何删除一些最常见的广告附加信息。
 
 <a id=instruction></a>
+
 ### 如何在浏览器中禁用设置和扩展？
 
 以下是有关如何针对最流行的浏览器禁用设置和扩展的说明。
@@ -59,6 +60,7 @@ taxonomy:
 如果您使用 Opera 浏览器，请[阅读本手册](http://help.opera.com/Windows/11.50/en/extensions.html)。
 
 <a id=shortcuts></a>
+
 ### 如何为浏览器重新创建快捷键？
 
 恶意软件和广告软件程序通常以非常简单的方式安装其首页。它们替代浏览器的桌面快捷键，任务栏和“开始“菜单项。

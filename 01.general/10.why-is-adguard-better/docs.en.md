@@ -1,8 +1,8 @@
 ---
-title: 'Why is AdGuard better than other adblockers'
+title: "Why is AdGuard better than other adblockers"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 

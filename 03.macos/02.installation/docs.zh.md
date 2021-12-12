@@ -1,15 +1,17 @@
 ---
-title: '安装/卸载'
+title: "安装/卸载"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-* [系统需求](#system-requirements)
-* [安装过程](#installation)
-* [卸载](#uninstall)
-	* [进阶卸载](#uninstall-advanced)
+
+- [系统需求](#system-requirements)
+- [安装过程](#installation)
+- [卸载](#uninstall)
+  - [进阶卸载](#uninstall-advanced)
 
 <a id="system-requirements"></a>
+
 ## 系统需求
 
 **操作系统版本：** macOS 10.12（64 位）或更高版本
@@ -20,6 +22,7 @@ taxonomy:
 
 **可用磁盘空间：** 120 MB
 <a id="installation"></a>
+
 ## 安装过程
 
 为了将 AdGuard macOS 版安装到您的电脑上，请您打开浏览器，在地址栏键入 _adguard.com_ 后，在打开的网页上点击**下载**即可。
@@ -30,11 +33,11 @@ taxonomy:
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/zh/installation-2-cn.png" width="600" />
 
-您的操作系统将会提示您：该应用程序是从互联网下载的 App。点击**打开**。 
+您的操作系统将会提示您：该应用程序是从互联网下载的 App。点击**打开**。
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/zh/installation-3-cn.png" width="400" />
 
-桌面上将会显示 AdGuard 图标。点击**安装** 
+桌面上将会显示 AdGuard 图标。点击**安装**
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/zh/installation-4-cn.png" width="300" />
 
@@ -64,6 +67,7 @@ taxonomy:
 
 完成啦！AdGuard 已成功安装到您的 Mac！
 <a id="uninstall"></a>
+
 ## 卸载
 
 ### 一般卸载方式
@@ -77,19 +81,22 @@ taxonomy:
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/zh/installation-10-cn.png" width="600" />
 
 <a id="uninstall-advanced"></a>
+
 ### 进阶卸载方式
-**除非您知道如何操作或有我们技术支持专门为您推荐使用进阶方式卸载应用程序，我们不推荐您使用该方式。此外，请您先使用一般卸载方式。** 
+
+**除非您知道如何操作或有我们技术支持专门为您推荐使用进阶方式卸载应用程序，我们不推荐您使用该方式。此外，请您先使用一般卸载方式。**
 
 如果一般卸载方式无效，再请您执行以下操作：
-* 删除以下的 AdGuard 文件：
-    * /Library/Application Support/AdGuard Software/com.adguard.mac.adguard (文件夹)
-    * ~/Library/Application Support/com.adguard.mac.adguard (文件夹)
-    * ~/Library/Preferences/com.adguard.mac.adguard.plist (文件)
-    * ~/Library/Group\ Containers/TC3Q7MAJXF.com.adguard.mac (文件夹)
-    * /Library/LaunchDaemons/com.adguard.mac.adguard.adguard-pac.daemon.plist (文件)
-    * /Library/LaunchDaemons/com.adguard.mac.adguard.adguard-tun-helper.daemon.plist (文件)
-    * /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-pac.daemon.log (文件)
-    * /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-tun-helper.daemon.log (文件)
+
+- 删除以下的 AdGuard 文件：
+  - /Library/Application Support/AdGuard Software/com.adguard.mac.adguard (文件夹)
+  - ~/Library/Application Support/com.adguard.mac.adguard (文件夹)
+  - ~/Library/Preferences/com.adguard.mac.adguard.plist (文件)
+  - ~/Library/Group\ Containers/TC3Q7MAJXF.com.adguard.mac (文件夹)
+  - /Library/LaunchDaemons/com.adguard.mac.adguard.adguard-pac.daemon.plist (文件)
+  - /Library/LaunchDaemons/com.adguard.mac.adguard.adguard-tun-helper.daemon.plist (文件)
+  - /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-pac.daemon.log (文件)
+  - /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-tun-helper.daemon.log (文件)
 
 **为了执行上述步骤**，请您打开 Terminal。然后输入并执行以下的指令：
 
@@ -103,12 +110,12 @@ taxonomy:
 `sudo rm /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-pac.daemon.log`
 `sudo rm /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-tun-helper.daemon.log`
 
-* 开启  ’活动监视器’。
-* 通过搜索查找 **cfprefsd** 进程。
+- 开启 ’活动监视器’。
+- 通过搜索查找 **cfprefsd** 进程。
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/zh/installation-11-cn.png" width="600" />
 
-* 为了退出在用户态下运行的进程（不是在 root 权限运行的），请点击进程。然后在左上角点击 X。在对话窗确定要退出。 
+- 为了退出在用户态下运行的进程（不是在 root 权限运行的），请点击进程。然后在左上角点击 X。在对话窗确定要退出。
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/zh/installation-12-cn.png" width="400" />
 

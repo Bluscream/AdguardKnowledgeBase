@@ -1,8 +1,8 @@
 ---
-title: 'General questions'
+title: "General questions"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 1

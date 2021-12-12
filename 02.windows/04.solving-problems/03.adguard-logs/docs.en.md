@@ -1,8 +1,8 @@
 ---
-title: 'How to find AdGuard logs'
+title: "How to find AdGuard logs"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -12,7 +12,8 @@ For analysis and diagnostic of different problems support service might need AdG
 
 <img src="https://cdn.adguard.com/Adguard/kb/newscreenshots/En/eng_logs_1.png" style="border: 1px solid #efefef; max-width: 650px; padding: 2px;">
 
-2. Reproduce the issue. 
+2. Reproduce the issue.
+
 - We strongly advise to specify the time when you reproduced the issue: it will help our support team to solve the problem.
 
 3. Export the recorded logs using the **Export Log** button.
@@ -25,7 +26,7 @@ For analysis and diagnostic of different problems support service might need AdG
 
 5. Send the archive to the AdGuard support service at support@adguard.com, describe the problem and don't forget to mention the time when you reproduced the issue.
 
-**Note**: sometimes support team members may ask you to send *trace* logs. Then you will need to do the following:
+**Note**: sometimes support team members may ask you to send _trace_ logs. Then you will need to do the following:
 
 1. Stop AdGuard. Please don't leave the service running.
 
@@ -43,6 +44,6 @@ For analysis and diagnostic of different problems support service might need AdG
 
 6. Export the recorded logs using the **Export Log** button.
 
-7.  **Important**: set the logging level back to **Standard**. **Debug** logging level will slow down the application.
+7. **Important**: set the logging level back to **Standard**. **Debug** logging level will slow down the application.
 
 Don't worry if the log file is large. We need to know as much detail as possible to fix your problem.

@@ -1,8 +1,8 @@
 ---
-title: '如何在 YouTube 上拦截广告'
+title: "如何在 YouTube 上拦截广告"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -17,4 +17,4 @@ visible: true
 
 完成！在新视窗里您就可以观看无广告的视频啦！
 
-* 如您已安装并开启了 AdGuard，您也可以在浏览器里享受无广告的 YouTube 影片。
+- 如您已安装并开启了 AdGuard，您也可以在浏览器里享受无广告的 YouTube 影片。

@@ -1,8 +1,8 @@
 ---
-title: '为什么 AdGuard 比其他广告过滤器更好'
+title: "为什么 AdGuard 比其他广告过滤器更好"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 

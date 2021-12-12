@@ -1,18 +1,18 @@
 ---
-title: 'Главное окно'
+title: "Главное окно"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 Главное окно AdGuard предоставляет быстрый доступ ко всем основным функциям программы.
 
-![Главное окно AdGuard c неактивными плитками](https://cloud.githubusercontent.com/assets/20211341/20167519/38f1fe30-a703-11e6-9c8b-67153d2f3fc2.png  "Главное окно AdGuard c неактивными плитками")
+![Главное окно AdGuard c неактивными плитками](https://cloud.githubusercontent.com/assets/20211341/20167519/38f1fe30-a703-11e6-9c8b-67153d2f3fc2.png "Главное окно AdGuard c неактивными плитками")
 
 При наведении курсора мыши на отдельные плитки интерфейса можно проконтролировать состояние модулей (включен или выключен) и получить быстрый доступ к их настройкам.
 
-![главное окно AdGuard c активными плитками](https://cloud.githubusercontent.com/assets/20211341/20169727/41a087ce-a710-11e6-8a52-5ba6bc549eb5.png  "Главное окно AdGuard с активными плитками")
+![главное окно AdGuard c активными плитками](https://cloud.githubusercontent.com/assets/20211341/20169727/41a087ce-a710-11e6-8a52-5ba6bc549eb5.png "Главное окно AdGuard с активными плитками")
 
 **Защита**
 

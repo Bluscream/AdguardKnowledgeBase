@@ -1,8 +1,8 @@
 ---
-title: 'Ad Blocker'
+title: "Ad Blocker"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 This is the main module of AdGuard for macOS that filters off ads on websites viewed by the user and in the user’s installed apps. Ad Blocker clears web pages of advertising images and messages using specific rules. The undesirable content is filtered even before the page is loaded in the browser, which helps save a lot of traffic.
@@ -18,7 +18,6 @@ To turn Ad Blocker on or off, click on the AdGuard icon in the macOS ribbon and 
 To change the module settings or turn filters on or off, click on the gear icon in the upper right corner of the AdGuard app and choose Perferences from the menu.
 
 ![](Screenshot%202017-02-12%2019.43.16.png)
-
 
 In the window that opens, you can adjust the main app settings, e.g., turn on [useful ads](https://adguard.com/en/whitelist.html) by checking the corresponding box.
 

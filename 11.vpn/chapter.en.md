@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard VPN'
+title: "AdGuard VPN"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Chapter 11

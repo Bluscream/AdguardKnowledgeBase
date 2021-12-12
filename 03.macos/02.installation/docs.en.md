@@ -1,16 +1,18 @@
 ---
-title: 'Install/Uninstall'
+title: "Install/Uninstall"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-* [System requirements](#system-requirements)
-* [Installation](#installation)
-* [Uninstall](#uninstall)
-	* [Advanced uninstall](#uninstall-advanced)
+
+- [System requirements](#system-requirements)
+- [Installation](#installation)
+- [Uninstall](#uninstall)
+  - [Advanced uninstall](#uninstall-advanced)
 
 <a id="system-requirements"></a>
-## System  requirements
+
+## System requirements
 
 **Operating system version:** macOS 10.12 (64 bit) or higher
 
@@ -21,14 +23,14 @@ taxonomy:
 **Free disk space:** 120 Mbytes
 
 <a id="installation"></a>
-## Installation
 
+## Installation
 
 To install AdGuard for macOS on your computer, launch your browser, type _adguard.com_ in the address bar, and press **Download** on the page that opens.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/1.png" width="600" />
 
-Wait for _AdguardInstaller.dmg_ to download and double-click on its icon in the list of downloaded files on the Dock panel. 
+Wait for _AdguardInstaller.dmg_ to download and double-click on its icon in the list of downloaded files on the Dock panel.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/2.png" width="600" />
 
@@ -36,7 +38,7 @@ The AdGuard icon will appear on your Desktop. Click on it to open the installati
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/3.png" width="300" />
 
- Upon the first AdGuard launch, your operating system will warn you that this application has been downloaded from the Internet. Click **Open**.
+Upon the first AdGuard launch, your operating system will warn you that this application has been downloaded from the Internet. Click **Open**.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/4.png" width="400" />
 
@@ -52,17 +54,18 @@ To use the application, you will need the administrator password for your macOS 
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/7.png" width="300" />
 
-
 Now, you'll see a quick installation wizard where we will offer you to configure protection to your needs. You can either start fine-tuning right away ("Let's do it!") or skip for now ("Leave as it is").
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/installation-wizard.png?" width="600" />
 
-Here we are, AdGuard is installed on your Mac! 
+Here we are, AdGuard is installed on your Mac!
 
 <a id="uninstall"></a>
+
 ## Uninstall
 
 ### Regular
+
 First of all, open 'Finder' app by clicking on a respective icon:
 
 ![](https://cdn.adguard.com/public/Adguard/En/Articles/howtodelete/finder.png)
@@ -72,21 +75,22 @@ Go to 'Applications' section. Find AdGuard there, right-click on it and choose '
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/uninstall/1.png" width="600" />
 
 <a id="uninstall-advanced"></a>
+
 ### Advanced
 
 **Use this instruction only if you know what you are doing or if our support service specifically recommended you the 'advanced uninstall'. Also, do all the steps from the 'regular uninstall first'.** After that, do the following:
 
-* Delete following AdGuard files:
-    * /Library/Application Support/AdGuard Software/com.adguard.mac.adguard (folder)
-    * ~/Library/Application Support/com.adguard.mac.adguard (folder)
-    * ~/Library/Preferences/com.adguard.mac.adguard.plist (file)
-    * ~/Library/Group\ Containers/TC3Q7MAJXF.com.adguard.mac (folder)
-    * /Library/LaunchDaemons/com.adguard.mac.adguard.adguard-pac.daemon.plist (file)
-    * /Library/LaunchDaemons/com.adguard.mac.adguard.adguard-tun-helper.daemon.plist (file)
-    * /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-pac.daemon.log (file)
-    * /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-tun-helper.daemon.log (file)
+- Delete following AdGuard files:
+  - /Library/Application Support/AdGuard Software/com.adguard.mac.adguard (folder)
+  - ~/Library/Application Support/com.adguard.mac.adguard (folder)
+  - ~/Library/Preferences/com.adguard.mac.adguard.plist (file)
+  - ~/Library/Group\ Containers/TC3Q7MAJXF.com.adguard.mac (folder)
+  - /Library/LaunchDaemons/com.adguard.mac.adguard.adguard-pac.daemon.plist (file)
+  - /Library/LaunchDaemons/com.adguard.mac.adguard.adguard-tun-helper.daemon.plist (file)
+  - /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-pac.daemon.log (file)
+  - /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-tun-helper.daemon.log (file)
 
-**To do so**, open the Terminal app, then enter and execute the following commands: 
+**To do so**, open the Terminal app, then enter and execute the following commands:
 
 `sudo rm -R "/Library/Application Support/AdGuard Software/com.adguard.mac.adguard"`
 `rm -R "$HOME/Library/Application Support/com.adguard.mac.adguard"`
@@ -98,12 +102,12 @@ Go to 'Applications' section. Find AdGuard there, right-click on it and choose '
 `sudo rm /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-pac.daemon.log`
 `sudo rm /Library/Logs/com.adguard.mac.adguard/com.adguard.mac.adguard.adguard-tun-helper.daemon.log`
 
-* Run ’Activity Monitor’ app.
-* Using search tool, find the process **cfprefsd**.
+- Run ’Activity Monitor’ app.
+- Using search tool, find the process **cfprefsd**.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/uninstall/2.png" width="600" />
 
-* Stop the process which is being&nbsp;run under the user (not the one run under root). To do so, click on the process and then on the X on the upper left. Confirm it in the dialogue window.
+- Stop the process which is being&nbsp;run under the user (not the one run under root). To do so, click on the process and then on the X on the upper left. Confirm it in the dialogue window.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/installation/Mac/en/uninstall/3.png" width="400" />
 

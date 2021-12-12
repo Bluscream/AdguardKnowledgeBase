@@ -2,7 +2,6 @@
 title: Дополнительно
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

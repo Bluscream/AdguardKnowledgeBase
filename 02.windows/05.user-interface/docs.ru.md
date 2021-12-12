@@ -1,9 +1,8 @@
 ---
-title: 'Пользовательский интерфейс'
+title: "Пользовательский интерфейс"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
-

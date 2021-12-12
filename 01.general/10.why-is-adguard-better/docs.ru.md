@@ -1,8 +1,8 @@
 ---
-title: 'Чем AdGuard лучше других блокировщиков.'
+title: "Чем AdGuard лучше других блокировщиков."
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 

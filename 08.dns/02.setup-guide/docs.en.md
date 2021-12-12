@@ -1,8 +1,8 @@
 ---
-title: 'Setup guide'
+title: "Setup guide"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 You can set up AdGuard DNS on various operating systems, routers, etc. Depending on the specific device, the instructions will vary. Please [go to AdGuard DNS website](https://adguard-dns.com/public-dns.html), find the device type you're trying to configure AdGuard DNS on, and follow the instructions.
@@ -85,7 +85,7 @@ IPV4:
 
 *94.140.14.140*
 
-*94.140.14.141* 
+*94.140.14.141*
 
 IPV6:
 
@@ -134,17 +134,17 @@ DNS-over-TLS:
 
 5. Find ’Internet Protocol Version 4 (TCP/IP)’ in the list, select it and then click on ’Properties’ again
 
-6. Choose ’Use the following DNS server addresses’ and enter these: 
+6. Choose ’Use the following DNS server addresses’ and enter these:
 
->94.140.14.14 
+>94.140.14.14
 
->94.140.15.15 
+>94.140.15.15
 
-for ’Default’ servers; 
+for ’Default’ servers;
 
 >94.140.14.15
 
->94.140.15.16 
+>94.140.15.16
 
 for ’Family protection’ servers.
 
@@ -163,17 +163,17 @@ for ’Family protection’ servers.
 5. Highlight the ’Internet protocol version 4 (TCP/IP)’ and click ’Properties’ again (same for ’Internet protocol version 6 (TCP/IP)’ if you use IPv6)
 
 6. Select ’Use the following DNS server addresses’ and enter following:
- 
- 
->94.140.14.14 
 
->94.140.15.15 
 
-for ’Default’ servers; 
+>94.140.14.14
+
+>94.140.15.15
+
+for ’Default’ servers;
 
 >94.140.14.15
 
->94.140.15.16 
+>94.140.15.16
 
 for ’Family protection’ servers.
 
@@ -191,14 +191,14 @@ for ’Family protection’ servers.
 
 5. Highlight the ’Internet protocol version 4 (TCP/IP)’ and click ’Properties’ again (same for ’Internet protocol version 6 (TCP/IP)’ if you use IPv6)
 
-6. Select ’Use the following DNS server addresses’ and enter following: 
- 
- 
->94.140.14.14 
+6. Select ’Use the following DNS server addresses’ and enter following:
 
->94.140.15.15 
 
-for ’Default’ servers; 
+>94.140.14.14
+
+>94.140.15.15
+
+for ’Default’ servers;
 
 >94.140.14.15
 
@@ -220,18 +220,18 @@ for ’Family protection’ servers.
 
 5. Click ’Properties’ again
 
-6. Select ’Use the following DNS server addresses’ and enter following: 
- 
- 
->94.140.14.14 
+6. Select ’Use the following DNS server addresses’ and enter following:
 
->94.140.15.15 
 
-for ’Default’ servers; 
+>94.140.14.14
+
+>94.140.15.15
+
+for ’Default’ servers;
 
 >94.140.14.15
 
->94.140.15.16 
+>94.140.15.16
 
 for ’Family protection’ servers.
 
@@ -249,17 +249,17 @@ for ’Family protection’ servers.
 
 5. Select Internet Protocol (TCP/IP) and click Properties again
 
-6. Select ’Use the following DNS server addresses’ and enter following: 
- 
->94.140.14.14 
+6. Select ’Use the following DNS server addresses’ and enter following:
 
->94.140.15.15 
+>94.140.14.14
 
-for ’Default’ servers; 
+>94.140.15.15
+
+for ’Default’ servers;
 
 >94.140.14.15
 
->94.140.15.16 
+>94.140.15.16
 
 for ’Family protection’ servers.
 
@@ -273,17 +273,17 @@ for ’Family protection’ servers.
 
 3. Select the first connection in your list and click ’Advanced’
 
-4. Select the ’DNS’ tab and add following addresses to the list of DNS servers: 
- 
->94.140.14.14 
+4. Select the ’DNS’ tab and add following addresses to the list of DNS servers:
 
->94.140.15.15  
+>94.140.14.14
 
-for ’Default’ servers; 
+>94.140.15.15
+
+for ’Default’ servers;
 
 >94.140.14.15
 
->94.140.15.16 
+>94.140.15.16
 
 for ’Family protection’ servers.
 
@@ -297,13 +297,13 @@ for ’Family protection’ servers.
 2. Tap Wi-Fi on the menu. The screen listing all of the available networks will be shown.
 3. Long press the network you’re connected to, and tap «Modify Network».
 4. On some devices, you may need to check the box for «Advanced» to see further settings. To adjust your Android DNS settings, you will need to switch the IP settings from «DHCP» to «Static».
-5. Change set «DNS 1» and «DNS 2» values to following: 
- 
->94.140.14.14 
+5. Change set «DNS 1» and «DNS 2» values to following:
 
->94.140.15.15 
+>94.140.14.14
 
-for «Default» servers; 
+>94.140.15.15
+
+for «Default» servers;
 
 >94.140.14.15
 
@@ -330,17 +330,17 @@ On Android version 9+, you can configure AdGuard DNS as follows:
 2. Choose ’Wi-Fi’ in the left menu (it is impossible to configure DNS for mobile networks)
 
 4. Tap on the name of the currently active network
-In the ’DNS’ field enter our DNS addresses: 
- 
->94.140.14.14 
+In the ’DNS’ field enter our DNS addresses:
 
->94.140.15.15 
+>94.140.14.14
 
-for ’Default’ servers; 
+>94.140.15.15
+
+for ’Default’ servers;
 
 >94.140.14.15
 
->94.140.15.16 
+>94.140.15.16
 
 for ’Family protection’ servers.
 
@@ -348,23 +348,23 @@ for ’Family protection’ servers.
 
 ###  Routers
 
-1. Open the preferences for your router 
+1. Open the preferences for your router
 Usually you can access it from your browser via a URL (like **http://192.168.0.1/** or **http://192.168.1.1/**). You may be asked to enter the password. If you don’t remember it, you can often reset the password by pressing a button on the router itself. Some routers have a specific application which should be already installed on your computer in that case.
 
-2. Find the DNS settings 
+2. Find the DNS settings
 Look for the ’DNS’ letters next to a field which allows two or three sets of numbers, each broken into four groups of one to three numbers.
 
-3.Enter our DNS server addresses there 
- 
->94.140.14.14 
+3.Enter our DNS server addresses there
 
->94.140.15.15 
+>94.140.14.14
 
-for ’Default’ servers; 
+>94.140.15.15
+
+for ’Default’ servers;
 
 >94.140.14.15
 
->94.140.15.16 
+>94.140.15.16
 
 for ’Family protection’ servers.
 
@@ -378,26 +378,26 @@ for ’Family protection’ servers.
 
 3. Now click on ‘IPv4 Settings’ tab and change the ‘Method’ to Automatic (DHCP) addresses only.
 
-4. Type in IP addresses of our DNS servers, separated by commas to the ‘DNS Servers’ field: 
- 
->94.140.14.14 
+4. Type in IP addresses of our DNS servers, separated by commas to the ‘DNS Servers’ field:
 
->94.140.15.15 
+>94.140.14.14
 
-for ’Default’ servers; 
+>94.140.15.15
+
+for ’Default’ servers;
 
 >94.140.14.15
 
->94.140.15.16 
+>94.140.15.16
 
 for ’Family protection’ servers.
 
 ### DNSCrypt for AdGuard DNS
 
-* [Setup guide](https://dnscrypt.info/implementations/) 
+* [Setup guide](https://dnscrypt.info/implementations/)
 
 
-It is possible that during the DNSCrypt configuring you will need information for **dnscrypt-resolvers.csv** file. 
+It is possible that during the DNSCrypt configuring you will need information for **dnscrypt-resolvers.csv** file.
 You can find it [here](https://download.dnscrypt.info/dnscrypt-resolvers/v2/).
 
 --->

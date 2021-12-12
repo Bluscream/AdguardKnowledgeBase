@@ -1,9 +1,9 @@
 ---
-title: 'HTTPS filtering'
+title: "HTTPS filtering"
 published: true
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
@@ -49,9 +49,9 @@ If you believe some website should be added to this list, please [let us know](h
 
 ### Extended Validation (EV) certificates
 
-AdGuard provides an ability to exclude from filtering all websites that use extended validation certificates. 
+AdGuard provides an ability to exclude from filtering all websites that use extended validation certificates.
 
-EV certificate means a higher security level and provides more guarantees than a regular certificate, proving that the website is not fraudulent or fake. 
+EV certificate means a higher security level and provides more guarantees than a regular certificate, proving that the website is not fraudulent or fake.
 
 ### Problems related to HTTPS filtering
 
@@ -77,6 +77,6 @@ Finally, if your device is rooted, you can move AdGuard certificate to system st
 
 There are several websites created specifically for the purpose of checking HTTPS connections quality. These websites check if your browser (or, in our case, browser + AdGuard) is susceptible to common vulnerabilities. If you plan to use any program that filters HTTPS (not necessarily AdGuard, it may be an antivirus, etc.), we advise checking the connection quality on these websites.
 
-* [https://www.ssllabs.com/ssltest/viewMyClient.html](https://www.ssllabs.com/ssltest/viewMyClient.html)
-* [https://www.howsmyssl.com/](https://www.howsmyssl.com/)
-* [https://badssl.com/](https://badssl.com/)
+- [https://www.ssllabs.com/ssltest/viewMyClient.html](https://www.ssllabs.com/ssltest/viewMyClient.html)
+- [https://www.howsmyssl.com/](https://www.howsmyssl.com/)
+- [https://badssl.com/](https://badssl.com/)

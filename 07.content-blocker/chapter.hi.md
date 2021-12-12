@@ -1,12 +1,12 @@
 ---
-title: 'AdGuard Content Blocker'
+title: "AdGuard Content Blocker"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### चैप्टर 7
 
 # AdGuard Content Blocker
 
-यह सेक्शन AdGuard Content Blocker एप्लीकेशन को समझता है।  
+यह सेक्शन AdGuard Content Blocker एप्लीकेशन को समझता है।

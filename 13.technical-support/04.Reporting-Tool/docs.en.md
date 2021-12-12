@@ -1,31 +1,29 @@
 ---
-title: 'Report website'
+title: "Report website"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
 ## Introduction
 
-
-* [Windows](#Windows)
-* [Browser extension](#extension)
-* [Android](#Android)
-* [MAC](#MAC)
-* [iOS](#iOS)
-* [Filling in the form](#form)
-* [Diagnosis of a issue](#solo)
-
+- [Windows](#Windows)
+- [Browser extension](#extension)
+- [Android](#Android)
+- [MAC](#MAC)
+- [iOS](#iOS)
+- [Filling in the form](#form)
+- [Diagnosis of a issue](#solo)
 
 When using ad blockers, you may face incorrect work of certain websites or broken page elements. These problems might arise due to a variety of factors:
 
-* Incorrect user rules;
-* Modified algorithms of adding ads;
-* Added filters/extensions from third-party developers;
-* The authors of one of the filters made a mistake when creating the rule.
-* Advertising reinsertion. Find more about this method in our [blog](https://adguard.com/ru/blog/ad-reinsertion.html). 
- 
+- Incorrect user rules;
+- Modified algorithms of adding ads;
+- Added filters/extensions from third-party developers;
+- The authors of one of the filters made a mistake when creating the rule.
+- Advertising reinsertion. Find more about this method in our [blog](https://adguard.com/ru/blog/ad-reinsertion.html).
+
 You can help us by filling in an application form with examples of ads you faced with. To do it, please, use instructions for your OS.
 
 ## Report a website
@@ -34,73 +32,68 @@ You can help us by filling in an application form with examples of ads you faced
 
 To report a reinsertion of an ad or incorrect displaying of a website, you need to:
 
-
 <a id="Windows"></a>
 
 ### **Windows**
 
+- Open [AdGuard Assistant](https://uploads.adguard.com/Chinaskifgjv7.png) (By default shown in the right lower corner of a browser);
 
-* Open [AdGuard Assistant](https://uploads.adguard.com/Chinaskifgjv7.png) (By default shown in the right lower corner of a browser);
-
-* Нit **Report the website**, as shown in the screenshot:
+- Нit **Report the website**, as shown in the screenshot:
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/win1en.png" width="350"/>
 
-* Fill in the form for reporting a complaint;
-* After you've done it, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
+- Fill in the form for reporting a complaint;
+- After you've done it, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
 
 <a id="extension"></a>
 
 ### **Browser extension**
 
-* Open the browser extension settings by clicking on the corresponding icon;
-* Click on **Submit a complaint about this website**:
+- Open the browser extension settings by clicking on the corresponding icon;
+- Click on **Submit a complaint about this website**:
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/extension1en.png" width="350"/>
 
-* After you've filled in the form, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
+- After you've filled in the form, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
 
 <a id="Android"></a>
 
 ### **Android**
 
-* Open AdGuard settings;
-* **Support**;
-* **Send Feedback**.
-* **Missed ad or tracker**/**Incorrect blocking**:
+- Open AdGuard settings;
+- **Support**;
+- **Send Feedback**.
+- **Missed ad or tracker**/**Incorrect blocking**:
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/android1en.png" width="350"/>
 
-* After you've filled in the form, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
-
+- After you've filled in the form, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
 
 <a id="MAC"></a>
 
 ### **MAC**
 
+- Open [AdGuard Assistant](https://uploads.adguard.com/Chinaskifgjv7.png) (By default shown in the right lower corner of a browser);
 
-* Open [AdGuard Assistant](https://uploads.adguard.com/Chinaskifgjv7.png) (By default shown in the right lower corner of a browser);
-
-* Нit **Report the website**, as shown in the screenshot:
+- Нit **Report the website**, as shown in the screenshot:
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/mac1en.png" width="350"/>
 
-* Then you'll need to fill in the form for reporting a complaint;
-* After you've done it, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
-
+- Then you'll need to fill in the form for reporting a complaint;
+- After you've done it, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
 
 <a id="iOS"></a>
 
 ### **iOS**
 
-* Open AdGuard settings;
-* Send feedback;
-* Report incorrect blocking:
+- Open AdGuard settings;
+- Send feedback;
+- Report incorrect blocking:
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/ios1en.png" width="350"/>
 
-* Fill in the form for reporting a complaint;
-* After you've done it, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
+- Fill in the form for reporting a complaint;
+- After you've done it, an issue on [GitHub](https://github.com/AdguardTeam/AdguardFilters/issues) will be created automatically. There will also be a link to monitor progress towards the solution of your problem.
 
 <a id="form"></a>
 
@@ -121,18 +114,20 @@ To report a reinsertion of an ad or incorrect displaying of a website, you need 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/forma3en.png" width="500"/>
 
 4. Application configuration must be specified:
-* Filters you use;
-* Stealth mode settings, if this function is enabled.
+
+- Filters you use;
+- Stealth mode settings, if this function is enabled.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/forma4en.png" width="500"/>
 
 5. [Provide a screenshot](https://kb.adguard.com/en/miscellaneous/taking-screenshots) that captures the essence of a problem;
-* **Important**: Hide your personal information (email, phone number, etc.) because screenshots will become publicly available.
+
+- **Important**: Hide your personal information (email, phone number, etc.) because screenshots will become publicly available.
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/forma5en.png" width="500"/>
 
 6. Provide additional information that will help filter developers understand the situation;
-Also enter your account on **GitHub**, if available (it's necessary for developers to be able to reach you in case they need some additional details);
+   Also enter your account on **GitHub**, if available (it's necessary for developers to be able to reach you in case they need some additional details);
 
 <img src="https://cdn.adguard.com/public/Adguard/kb/newscreenshots/Techsupp/forma6en.png" width="500"/>
 
@@ -157,19 +152,17 @@ For example, you are faced with a situation that your favorite website won’t o
 1. Disable **Ad Blocker**;
 2. If it solved the problem, re-enable the module and disable filters one by one. This is done to identify filters that "break" the page;
 3. If you have managed to find out which filter "breaks" a page, you should inform the developers when filling out the form (see above). In this case, it is desirable to return to the initial settings.
-4. If turning off all the filters hasn't produced any results, apply rule 
-**@@||example.com^$document,extension**,
-where **example.com** is an example site name that needs to be replaced by your own option;
+4. If turning off all the filters hasn't produced any results, apply rule
+   **@@||example.com^$document,extension**,
+   where **example.com** is an example site name that needs to be replaced by your own option;
 5. In case of failure (issue not solved), turn to section **Stealth Mode**.
 
-
-### **Stealth Mode**. 
+### **Stealth Mode**.
 
 1. Disable **Stealth Mode**;
 2. If this solved the problem, turn the module on and turn off the **Stealth Mode** options one by one. This is done to detect which filters are "breaking" the page;
 3. If you have managed to to detect which setting "breaks" a page, you should inform the developers when filling in the form (see above). In this case, it is desirable to return to the initial settings;
 4. In case of failure (issue not solved), turn to section **Extensions**.
-
 
 ### **Extensions**
 
@@ -177,7 +170,8 @@ where **example.com** is an example site name that needs to be replaced by your 
 2. If this solved the problem, turn on the module and turn off **Extensions** settings one by one. This is done to find out which setting "breaks" the page;
 3. If you have managed to detect which setting "breaks" a page, inform the developers when filling out the form (see above). In this case, it is desirable to return to the initial settings;
 
-### **Third-party blockers** 
+### **Third-party blockers**
+
 Some browsers and antivirus programs (such as Yandex Browser, Kaspersky, etc.) have built-in ad blockers. They may affect and cause problems in the operation of sites.
 If you use such programs, make sure that the problem is on the side of **AdGuard**: disable **AdGuard** filtering and try to repeat the problem. If it remains, it means that the problem is caused by another application or browser.
 If the problem is caused by **AdGuard**, follow the steps described in the previous paragraphs.

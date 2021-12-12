@@ -1,8 +1,8 @@
 ---
-title: 'AdGuard Content Blocker'
+title: "AdGuard Content Blocker"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
 
 ### Раздел 7

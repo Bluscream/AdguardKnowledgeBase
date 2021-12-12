@@ -1,9 +1,8 @@
 ---
-title: 'Восстановление ключа'
+title: "Восстановление ключа"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: false
 ---
-

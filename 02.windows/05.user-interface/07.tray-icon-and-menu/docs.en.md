@@ -1,8 +1,7 @@
 ---
-title: 'Tray icon and menu'
+title: "Tray icon and menu"
 published: false
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 ---
-

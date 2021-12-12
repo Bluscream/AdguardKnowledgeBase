@@ -1,14 +1,14 @@
 ---
-title: 'Internet Explorer and Edge filtering'
+title: "Internet Explorer and Edge filtering"
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
 visible: true
 ---
 
 What shall I do if the filtering in Internet Explorer doesn’t work?
 
-Most probably it’s because you are using Windows 8 or 8.1 and enhanced protected mode is enabled in Internet Explorer. There are two solutions to this problem. 
+Most probably it’s because you are using Windows 8 or 8.1 and enhanced protected mode is enabled in Internet Explorer. There are two solutions to this problem.
 
 **Option 1 - enable the WFP-drivers in the AdGuard network settings.**
 
@@ -30,7 +30,6 @@ To do so:
 
 ![](Internet%20options.png)
 
-  3. In the window “Internet options” choose “Advanced”, deselect “Enable Enhanced Protected Mode” and click “Ok”.
+3. In the window “Internet options” choose “Advanced”, deselect “Enable Enhanced Protected Mode” and click “Ok”.
 
 ![](Advanced.png)
-
